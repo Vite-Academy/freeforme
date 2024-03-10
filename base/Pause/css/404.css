@@ -1,0 +1,159 @@
+.design-404 .footer-instagram {
+    display: none;
+}
+
+.atbs-404-block {
+    margin-top: 100px;
+}
+
+.atbs-404-block.atbs-block:last-child {
+    margin-bottom: 80px;
+}
+
+.atbs-404-block h1 {
+    font-weight: 700;
+}
+
+.error-sub-title,
+.atbs-404-block p {
+    font-weight: 400;
+}
+
+.error-sub-title,
+.atbs-404-block .post__readmore--bold,
+.atbs-404-block a {
+    font-weight: bold;
+}
+
+.atbs-404-block .error-page {
+    margin-bottom: 5px;
+    margin-top: 0px;
+    padding: 0px 40px;
+}
+
+.atbs-404-block .error-page-top {
+    position: relative;
+}
+
+.atbs-404-block .error-page img {
+    margin-bottom: 50px;
+}
+
+.atbs-404-block h1 {
+    font-size: 241px;
+    line-height: 1;
+    margin: 0;
+    color: #f3f3f3;
+    margin-bottom: 40px;
+}
+
+.error-sub-title {
+    font-size: 44px;
+    color: #444444;
+    opacity: 0.8;
+    margin: 0;
+    margin-bottom: 2px;
+}
+
+.atbs-404-block p {
+    font-size: 16px;
+    color: #5e5d5e;
+    margin: 0;
+    margin-top: 0;
+    line-height: 1.5;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 0;
+}
+
+.atbs-404-block .backhome {
+    text-transform: capitalize;
+    margin-top: 45px;
+}
+
+.atbs-404-block a {
+    font-size: 16px;
+    color: var(--color-logo);
+}
+
+.error-text {
+    position: relative;
+}
+
+.atbs-404-block .button__readmore {
+    padding: 10px 0 0px 0px;
+    margin-left: 5px;
+    background: none;
+    border-radius: 5px;
+    color: var(--color-logo);
+    text-decoration: none;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.atbs-404-block .post__readmore--bold {
+
+    padding-left: 5px;
+    border-left: 2px solid #7a7a7a;
+}
+
+.atbs-404-block i {
+    font-size: 27px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    padding-right: 5px;
+}
+
+@media (max-width: 767px) {
+    .atbs-404-block h1 {
+        font-size: 150px;
+        margin-bottom: 20px;
+    }
+
+    .atbs-404-block p {
+        position: relative;
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    .atbs-404-block .button__readmore {
+        font-size: 14px;
+    }
+
+    .error-sub-title {
+        font-size: 22px;
+    }
+
+    .atbs-404-block {
+        margin-top: 50px;
+    }
+
+    .atbs-404-block .backhome {
+        margin-top: 20px;
+    }
+
+    .atbs-404-block.atbs-block:last-child {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .atbs-404-block h1 {
+        font-size: 120px;
+    }
+
+    .error-text {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .atbs-404-block {
+        margin-top: 30px;
+
+    }
+
+    .atbs-404-block.atbs-block:last-child {
+        margin-bottom: 10px;
+    }
+
+}

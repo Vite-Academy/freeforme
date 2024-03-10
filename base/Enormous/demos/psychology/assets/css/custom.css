@@ -1,0 +1,108 @@
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.slider .slide--headline {
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+/* header */
+
+.top-bar .top--social a {
+    color: #0eaff5
+}
+
+.top-bar .top--social a:hover {
+    color: #fff
+}
+
+
+.top-bar .top--social .btn {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    border: none;
+    border-radius: 0;
+    margin-top: -1px;
+}
+
+.top-bar .top--social .btn:hover {
+    background-color: #fff !important;
+    color: #0eaff5;
+}
+
+/* page title */
+
+.page-title .title-17 {
+    padding: 58px 0
+}
+
+.title-17 .title--heading h1 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 900;
+}
+
+.page-title .title-17 .breadcrumb,
+.page-title .title-17 .breadcrumb a {
+    color: #f9f9f9
+}
+
+.page-title .title-17 .active,
+.page-title .title-17 .breadcrumb > li + li:before {
+    color: #fff;
+}
+
+.btn--video {
+    padding-left: 0;
+}
+
+.btn--video i {
+    position: static;
+}
+
+.video-button-1 p {
+    color: #a5a5a5;
+}
+/* services */
+.service-panel h3{
+    font-weight: 900;
+}
+
+
+/* cta */
+
+.cta h3 {
+    font-style: italic;
+}
+
+.cta .btn {
+    width: 270px;
+}
+
+/* footer */
+
+.footer--widget-newsletter form {
+    background-color: #f9f9f9;
+}
+
+.footer--widget-newsletter button {
+    color: #000000
+}
+
+.contact-3 .heading--title {
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: 19px;
+}
+
+

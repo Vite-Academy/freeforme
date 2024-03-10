@@ -1,0 +1,115 @@
+/*------------------------------------*\
+    #Accordion
+\*------------------------------------*/
+/* Accordion Base */
+
+.accordion {
+	border-radius: 2px;
+	border: 1px solid #eeeeee;
+	background-color: @color-white;
+}
+
+.accordion .panel {
+	border-bottom-color: rgba(49, 49, 49, 0.1);
+	padding: 22px 22px 0;
+	margin-bottom: 0;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-moz-border-radius: none;
+	-webkit-border-radius: none;
+	-moz-border-radius: none;
+	-webkit-border-radius: none;
+	border-radius: none;
+	background-color: transparent;
+}
+
+.accordion .panel:last-of-type {
+	border-bottom: none;
+}
+
+.accordion .panel .panel--heading {
+	padding: 0 0 22px;
+}
+
+.accordion .panel .panel--heading a {
+	font-family: @font-body;
+	font-size: 13px;
+	color: @color-theme;
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+	position: relative;
+	padding-left: 40px;
+	display: block;
+}
+
+.accordion .panel .panel--heading a.collapsed {
+	color: @color-dark;
+}
+
+.accordion .panel .panel--body {
+	padding: 0 0 28px;
+	color: @color-body;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 22px;
+}
+/* Accordion Status */
+.accordion .panel--heading .accordion-toggle:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: "\f068";
+	/* symbol for "opening" panels */
+	font-family: @awesome;
+	font-size: 11px;
+	color: @color-white;
+	background-color: @color-theme;
+	border: 1px solid @color-theme;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+}
+
+.accordion .panel--heading .accordion-toggle.collapsed:after {
+	content: "\f067";
+	/* symbol for "collapsed" panels */
+	color: @color-heading;
+	background-color: transparent;
+	border: 1px solid @color-heading;
+}
+/* Accordion Style #1 */
+
+.accordion.accordion-1 .panel--heading a {
+	padding-left: 0;
+}
+
+.accordion.accordion-1 .panel--heading .accordion-toggle:after {
+	right: 0;
+	left: auto;
+}
+/* Accordion Style #2 */
+
+.accordion.accordion-2 .panel .panel--body {
+	padding-left: 40px;
+}
+/* Accordion Style #3 */
+
+.accordion.accordion-3 {
+	border: none;
+	background-color: transparent;
+}
+
+.accordion.accordion-3 .panel--heading a {
+	padding-left: 0;
+}
+
+.accordion.accordion-3 .panel--heading .accordion-toggle:after {
+	right: 0;
+	left: auto;
+}

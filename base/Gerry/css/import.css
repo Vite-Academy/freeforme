@@ -1,0 +1,56 @@
+/* TABLE OF CONTENT
+ * ==================
+ *  BASE
+ *      - Vendors Stylesheet.
+ *      - Basic Theme Stylesheet (Layout, Content)
+ *  EXTENSION
+ *      - Animation
+ *      - Swiper Slider
+ *      - Popup Gallery
+ *  GENERAL
+ *  HEADER
+ *  HOME PAGE (Module)
+ *      - Post Grid Featured
+ *      - Post Grid A
+ *      - Post Grid B
+ *      - Post Grid C
+ *      - Post Listing
+ *  FOOTER
+ *  SIDEBAR
+ *      - Widgets
+ *  SINGLE PAGE
+ *   - Single Default
+ *   - Single Gallery
+ *  404 Page
+ *  CUSTOM
+ *   - Font
+ *   - Color
+ **/
+
+@import "./vendors.css";
+@import "./style.css";
+
+@import "./animate.css";
+@import "./swiper.min.css";
+@import "./magnific-popup.css";
+
+@import "general.css";
+
+@import "header.css";
+
+@import "post_gridfeatured.css";
+@import "post_grid_a.css";
+@import "post_grid_b.css";
+@import "post_grid_c.css";
+@import "posts_list_main.css";
+
+@import "footer.css";
+
+@import "widget.css";
+
+@import "single.css";
+@import "gallery.css";
+@import "404.css";
+
+@import "color.css";
+@import "font.css";

@@ -1,0 +1,193 @@
+/*------------------------------------*\
+    #Landing Page / Promo Page
+\*------------------------------------*/
+
+.landing-hero {
+  height: 100vh;
+  padding-top: 200px;
+}
+
+.landing-hero h6 {
+  color: #f9f9f9;
+  font-family: @font-body;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.landing-hero h1 {
+  font-family: @font-heading;
+  font-size: 85px;
+  font-weight: 900;
+  line-height: 90px;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.landing-hero p {
+  font-family: @font-body;
+  color: #f9f9f9;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 27px;
+  padding: 0 30px;
+}
+
+.landing-demos .portfolio-filter li a {
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.landing-demos .portfolio-item {
+  margin-bottom: 50px;
+}
+
+.landing-demos .portfolio-title h4 {
+  font-family: @font-body;
+  color: @color-heading;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+
+.landing-demos .portfolio-title:hover h4 {
+  color: @color-theme;
+}
+
+.landing-demos .portfolio-img {
+  -moz-box-shadow: 0 0 36px 4px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 36px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 36px 4px rgba(0, 0, 0, 0.1);
+  background-color: #c0c0c0;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  -o-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.landing-demos .portfolio-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.landing-demos .portfolio-item:hover .portfolio-img {
+  -webkit-transform: translateY(-6px);
+  -moz-transform: translateY(-6px);
+  -o-transform: translateY(-6px);
+  transform: translateY(-6px);
+}
+
+.landing-demos .portfolio-item:hover img {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+
+.landing-demos .portfolio-bio {
+  padding-top: 23px;
+}
+/* Landing Action*/
+
+.wrapper-parallax {
+  margin-bottom: 600px;
+  position: relative;
+  z-index: 50;
+}
+
+.footer-parallax {
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  height: 600px;
+}
+
+.landing-action {
+  padding-top: 200px;
+}
+
+.landing-action img {
+  margin-bottom: 50px;
+}
+
+.landing-action h2 {
+  font-size: 65px;
+  font-weight: 900;
+  line-height: 1.2;
+  margin-bottom: 50px;
+}
+
+.landing-featues {
+  padding-bottom: 50px;
+}
+
+.landing-featues .feature-box {
+  margin-bottom: 50px;
+}
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 0;
+  }
+}
+
+.bg-animate {
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  animation: animatedBackground 1s linear infinite;
+}
+
+.landing-carousel {
+  margin-top: -90px;
+}
+
+.landing-carousel .owl-item .carousel-item {
+  -webkit-transform: scale(.8);
+  -moz-transform: scale(.8);
+  transform: scale(.8);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.landing-carousel .owl-item.center .carousel-item {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  transform: scale(1);
+}
+
+.landing-carousel .carousel-navs .owl-controls .owl-nav [class*=owl-] {
+  height: 35px;
+  line-height: 35px;
+  color: #999999;
+  margin-top: -250px;
+}
+
+.carousel-navs .owl-controls .owl-nav .owl-prev:before,
+.landing-carousel .carousel-navs .owl-controls .owl-nav .owl-next:before {
+  font-size: 35px;
+}
+
+.landing-carousel .carousel-navs .owl-controls .owl-nav .owl-prev {
+  left: 275px;
+}
+
+.landing-carousel .carousel-navs .owl-controls .owl-nav .owl-next {
+  right: 275px;
+}
+/* Landing Features */
+
+.landing-feature .feature-panel {
+  margin-bottom: 50px;
+}
+
+.landing-feature .feature-panel .feature--content h3 {
+  font-size: 18px;
+}

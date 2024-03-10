@@ -1,0 +1,45 @@
+form[id^="cp_calculatedfieldsf"] input[type="radio"], form[id^="cp_calculatedfieldsf"] input[type="checkbox"] {
+    display: inline;
+}
+
+#fbuilder #field_1-0, #fbuilder #field_1-1 {
+    float: left;
+    width: 48%;
+}
+
+#fbuilder #field_1-0 {
+    margin-right: 4%;
+}
+
+#fbuilder #field_1-2 {
+    clear: left;
+    padding-top: 1.35em;
+}
+
+#fbuilder .dfield {
+    position: relative;
+    margin-top: 0.9em;
+}
+
+#fbuilder .dfield select {
+    max-height: 54px;
+    overflow: hidden;
+    padding: 1.4em 1.4em;
+}
+
+#fbuilder .dfield select, #fbuilder .dfield input {
+    border-color: #fff;
+    /*font-size: 0.857em;*/
+    line-height: 1;
+}
+
+#fbuilder .dfield select {
+    background-image: url(../../../../uploads/2016/10/arrow.png);
+    background-repeat: no-repeat;
+    background-position: 96% center;
+}
+
+#fbuilder .top_aligned .fields label {
+    font-size: 1em;
+    font-weight: 300;
+}

@@ -1,0 +1,35 @@
+.atbs-posts-list .post .post-date{
+    top: unset;
+    bottom: 20%;
+}
+.atbs-posts-list .post--vertical .post__thumb{
+    margin-bottom: 20px;
+}
+.atbs-posts-list .post--horizontal .post__thumb{
+    height: 235px;
+}
+.atbs-posts-list .post--horizontal .post-date{
+    top: unset;
+    bottom: 5%;
+}
+
+@media (max-width: 1199px) {
+
+}
+
+@media( min-width: 991px){
+    .atbs-posts-list .post--horizontal .post__title{
+        font-size: 24px;
+    }
+    .atbs-posts-list .small-post--vertical .post__title{
+        font-size: 24px;
+    }
+}
+@media(max-width: 480px){
+    .post-d-style .post__thumb{
+        padding-left:0;
+    }
+    .atbs-posts-list .post .post-date{
+        display: none;
+    }
+}

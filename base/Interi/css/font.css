@@ -1,0 +1,41 @@
+/*************************
+*
+*  Font
+*
+*************************/
+
+.post__cat, a.post__cat,
+.entry-cat, a.entry-cat,
+.post__meta, .post__readmore,
+.widget-category .category-title a,
+.entry-author a.entry-author__name,
+.entry-author time.time,
+.single-body,
+.author-box.author-box-list .author-bio,
+.typography-copy blockquote, .comment-content blockquote,
+.module-404, .module-contact .contact-form label,
+.block-heading__subtitle, .footer-text,
+.copy-right, .atbs-offcanvas .paragraph-text, .vision-text .vision-label,
+.site-header .socials-share a, .block-heading__subtitle,
+.service-card .service__label, .paragraph-text, .statistics-label, .btn-rectangle,
+.team-profile .profile__bio, .testimonial-author .testimonial__bio .footer-text, .icon-text,
+.navigation--footer li a, .block-heading__label, .post__excerpt, .module-404 a,
+.contact-paragraph-text , .module-contact .contact-form .btn, .comment-form .form-submit input[type="submit"],
+.btn-default {
+    font-family: 'Roboto', sans-serif;
+
+}
+.navigation--main>li>a,
+.navigation--offcanvas>li>a,
+.post__title,
+.block-heading,
+.widget__title-text,
+.entry-title, .author-box.author-box-list .author-name a,
+.author-box .author-name, .atbs-offcanvas .paragraph-heading,
+.service-card .service__name, .statistics-number, .team-profile .profile__name,
+.testimonial-author .testimonial__name, .paragraph-block-heading, .module-404 p,
+.page-heading__title, .contact-paragraph-heading, .entry-author a.entry-author__name,
+.single-1 .entry-meta  *,
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: 'Poppins', serif;
+}

@@ -1,0 +1,8 @@
+@media(max-width: 767px){
+    .small-post--horizontal .post__text{
+        padding-top:0;
+    }
+    .post.post--horizontal .post__thumb{
+        /*margin-bottom: 20px;*/
+    }
+}

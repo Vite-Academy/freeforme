@@ -1,0 +1,63 @@
+/*------------------------------------*\
+    #Counters
+\*------------------------------------*/
+
+.counter {
+	padding-top: 110px;
+	padding-bottom: 110px;
+}
+
+.count-box .counting {
+	font-family: @font-thirdy;
+	color: @color-heading;
+	font-size: 80px;
+	font-weight: 700;
+	line-height: 1;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.count-title {
+	color: @color-secondary;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1;
+	text-transform: capitalize;
+}
+
+.count-desc {
+	font-size: 15px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 24px;
+	padding-top: 9px;
+	margin-bottom: 0;
+}
+
+.counter-theme .count-title,
+.counter-theme .counting {
+	color: @color-white
+}
+
+.counter-dark .count-title,
+.counter-dark .counting {
+	color: @color-white
+}
+
+.counter-box .count-box {
+	padding: 19px;
+	background-color: rgba(34, 34, 34, 0.2);
+}
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+	.counter {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.count-box {
+		margin-bottom: 30px;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width : 991px) {}

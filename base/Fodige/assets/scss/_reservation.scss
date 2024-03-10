@@ -1,0 +1,85 @@
+.reservation-section {
+	top: -170px;
+}
+.reservation-content {
+	overflow: hidden;
+	border-radius: 20px;
+	padding: 90px 200px 70px 175px;
+	.reservation-top-content {
+		width: 100%;
+		padding-bottom: 70px;
+		display: inline-block;
+		h2,h3 {
+			float: left;
+			color: #121850;
+			font-size: 36px;
+			font-weight: 700;
+			letter-spacing: 5px;
+			text-transform: uppercase;
+		}
+		h3 {
+			float: right;
+			letter-spacing: 0;
+			img {
+				margin-right: 10px;
+			}
+		}
+	}
+	.table-time-area {
+		h3 {
+			color: #131a33;
+			font-size: 16px;
+			padding-bottom: 10px;
+		}
+		input,select {
+			color: #131a33;
+		}
+		.datepicker {
+			width: 110px;
+			border-radius: 0;
+		}
+	}
+	.book-table-content .table-time-area:after {
+		display: none;
+	}
+	.dish-plus-minus input {
+		color: #fff;
+		background-color: $base-color2;
+	}
+	.dec.qtybutton,
+	.inc.qtybutton {
+		color: #131a33;
+		font-size: 20px;
+	}
+	.book-table-time {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.book-table-content .table-time-area input,
+	.book-table-content .table-time-area select {
+		padding-bottom: 0;
+		border: none;
+	}
+	.book-table-content .table-time-area {
+		margin: 0px 90px 0px 0px;
+		position: relative;
+		&:before {
+			content: '';
+			bottom: -3px;
+			left: 0;
+			height: 1px;
+			width: 100%;
+			position: absolute;
+			background-color: $base-color2;
+		}
+	}
+	.book-table-content .table-time-area a {
+		background-color: $base-color2;
+	}
+	.book-table-content .table-time-btn {
+		margin-top: 20px;
+		a {
+			background-color: $base-color2;
+		}
+	}
+}

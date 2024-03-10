@@ -1,0 +1,26 @@
+/*************************
+*
+*  Post Listing Grid 1 (Sidebar)
+*
+*************************/
+@media (min-width: 768px) {
+    .atbs-posts-listing--grid-1-has-sidebar .atbs-block__inner {
+        border-top: 0px solid var(--color-border);
+        overflow: hidden;
+    }
+    .atbs-posts-listing--grid-1-has-sidebar .posts-list {
+        margin: 0 -40px -40px -40px;
+    }
+    .atbs-posts-listing--grid-1-has-sidebar .posts-list > * {
+        padding: 0 40px 40px 40px;
+        position: relative;
+    }
+}
+@media (max-width: 767px) {
+    .atbs-posts-listing--grid-1-has-sidebar .posts-list > *:not(:last-child) {
+        margin-bottom: 40px;
+    }
+    .atbs-posts-listing--grid-1-has-sidebar .posts-list > * {
+        width: 100%;
+    }
+}

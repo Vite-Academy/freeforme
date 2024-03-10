@@ -1,0 +1,170 @@
+
+.atbs-featured-module-2 .atbs-block__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.atbs-featured-module-2 .section-main {
+    width: 70.6778770363%;
+}
+.atbs-featured-module-2 .section-sub {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    position: relative;
+}
+
+.atbs-featured-module-2 .section-main .post__text-group {
+    max-width: 980px;
+}
+
+.post--overlay-large .post__text-inner {
+    padding: 60px;
+}
+
+/**/
+
+
+.post--vertical-text-space .post__thumb {
+    height: 365px;
+    margin-bottom: 30px;
+}
+.post--vertical-text-space .post__text {
+    padding: 0 50px 0 30px;
+}
+
+@media (min-width: 1200px) {
+    .atbs-featured-module-2 .section-sub__inner {
+        max-height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    .atbs-featured-module-2 .section-sub .posts-list > * {
+        margin-bottom: 50px;
+    }
+}
+@media (min-width: 1921px) {
+    .atbs-featured-module-2 .atbs-block__inner {
+        max-width: 1920px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 1680px) {
+    .post--vertical-text-space .post__thumb {
+        height: 340px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 1366px) {
+    .post--vertical-text-space .post__thumb {
+        height: 300px;
+        margin-bottom: 25px;
+    }
+    .post--vertical-text-space .post__text {
+        padding: 0 30px 0 30px;
+    }
+}
+
+@media (max-width: 1366px) and (min-width: 1200px) {
+    .atbs-featured-module-2 .post--overlay-height-850.post--overlay .post__text {
+        min-height: 750px;
+    }
+    .atbs-featured-module-2 .post--overlay-large .post__title {
+        font-size: 4.5rem;
+    }
+
+    .atbs-featured-module-2 .post--vertical-text-space .post__title {
+        font-size: 1.7142rem;
+    }
+}
+
+@media (max-width: 1199px) {
+    .atbs-featured-module-2 .section-main {
+        width: 100%;
+    }
+    .atbs-featured-module-2 .section-sub {
+        position: relative;
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+        width: 100%;
+        padding: 0 30px;
+        margin-top: 40px;
+    }
+    .atbs-featured-module-2 .section-sub__inner {
+        overflow: visible;
+    }
+    .atbs-featured-module-2 .section-sub .posts-list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin: -20px -15px;
+    }
+    .atbs-featured-module-2 .section-sub .posts-list > * {
+        width: 50%;
+        padding: 20px 15px;
+    }
+    .atbs-featured-module-2 .post--overlay-height-850.post--overlay .post__text {
+        min-height: 550px;
+    }
+
+    .post--vertical-text-space .post__text {
+        padding: 0 0 0 30px;
+    }
+
+
+}
+@media (max-width: 991px) {
+    .post--vertical-text-space .post__thumb {
+        height: 270px;
+        margin-bottom: 20px;
+    }
+    .post--vertical-text-space .post__title {
+        margin-bottom: 10px;
+    }
+    .post--vertical-text-space .post__text {
+        padding: 0;
+    }
+    .atbs-featured-module-2 .section-sub {
+        padding: 0 15px;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 767px) {
+    .atbs-featured-module-2 .post--overlay-height-850.post--overlay .post__text {
+        min-height: 450px;
+    }
+    .post--overlay-large .post__text-inner {
+        padding: 30px;
+    }
+}
+@media (max-width: 575px) {
+    .atbs-featured-module-2 .section-sub .posts-list > * {
+        width: 100%;
+    }
+    .post--vertical-text-space .post__thumb {
+        height: 250px;
+    }
+
+    .atbs-featured-module-2 .post--overlay-height-850.post--overlay .post__text {
+        min-height: 400px;
+    }
+}
+@media (max-width: 480px) {
+    .atbs-featured-module-2 .section-sub .posts-list > * {
+        width: 100%;
+    }
+
+    .atbs-featured-module-2 .post--overlay-height-850.post--overlay .post__text {
+        min-height: 380px;
+    }
+}

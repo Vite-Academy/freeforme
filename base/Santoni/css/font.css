@@ -1,0 +1,94 @@
+/*************************
+*
+*  Font
+*
+*************************/
+input[type="button"]:not(.btn),
+input[type="reset"]:not(.btn),
+input[type="submit"]:not(.btn),
+.post__cat, 
+a.post__cat,
+.post__title , 
+.post__excerpt , 
+.post-meta , 
+.navigation--main > li > a,
+.button__readmore,
+.footer-bottom-copyright ,
+.heading__title ,
+.atbs-tabs,
+.widget__title-text,
+.author__name,
+.post-number,
+.about__bio,
+p,
+label,
+.comment-reply-title,
+h3,
+h4,
+span,
+.author-box .author-name a,
+.post-day,
+.entry-author,
+.entry-author p,
+.entry-author .author__name,
+.button__readmore,
+.post-th,
+
+.post-subtitle,
+a,
+.post__meta, 
+.entry-meta,
+a.entry-author__name,
+.author-bio,
+.author-name span,
+.error-page p,
+.subscriber-title,
+.atbs-pagination__item,
+.category-tile__name ,
+.category-tile__description,
+.block-heading__title,
+.about__text time,
+#menu-footer-menu li > a,
+.atbs-pagination .atbs-pagination__item,p.post-day ,
+.error-page h1 ,
+.error-sub-title,
+.atbs-404-block p,
+.atbs-404-block .button__readmore, 
+.post-single__inner .single-excerpt,
+.post-single__inner .single__text-top .single__meta,
+.post-single__inner .single-comment-views .comment-views--left .social-list li,
+.post-single__inner .comment-couter--right li,
+.post-single__inner .entry-interaction__right .social-list li,
+.post-single__inner .atbs-pagination .atbs-pagination__item,
+.comments-title,
+.post-single__inner .entry-tags,
+.post-single__inner .comment-couter a,
+.post-single__inner .atbs-pagination__item .pagination__item-text p:nth-child(1),
+.post-single__inner .atbs-pagination__item .pagination__item-text p:nth-child(2),
+.post-single__inner .share,
+.post-single__inner .tags-titl,
+.atbs-mega-menu__inner > .sub-menu > li > a,
+.navigation-bar-btn,
+.mobile-header-btn,
+label,
+.search-form__input-wrap .btn-submit,
+.top-bar .social-list > li > a,
+.site-footer__section-bottom .site-footer__section-right p,
+#menu-footer-menu li > a,
+.atbs-contact-block .contact-heading h1, 
+.atbs-contact-block .contact-form label,
+.atbs-contact-block input[type="text"], 
+.atbs-contact-block input[type="email"], 
+.atbs-contact-block textarea,
+.atbs-contact-block .contactform-submit {
+  
+  font-family: 'Roboto', sans-serif;
+}
+
+.block-heading h4.block-heading__title , .widget__title-text {
+    font-family: 'Playfair Display', serif;
+}
+
+p.sub-heading__title {
+    font-family: 'Lora', serif;
+}

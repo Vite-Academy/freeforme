@@ -1,0 +1,19 @@
+/*************************
+*
+*  Listing Grid 1
+*
+*************************/
+
+.post--vertical-normal .post__thumb {
+    height: 245px;
+}
+@media (max-width: 1199px) {
+    .atbs-posts-listing--grid-1 .posts-list > * {
+        width: 50%;
+    }
+}
+@media (max-width: 575px) {
+    .atbs-posts-listing--grid-1 .posts-list > * {
+        width: 100%;
+    }
+}

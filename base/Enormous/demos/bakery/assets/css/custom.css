@@ -1,0 +1,173 @@
+.page-title .title {
+    padding: 226px 0 82px;
+}
+
+.heading .heading--subtitle {
+    color: #e1be64;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 4px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+.heading .heading--title {
+    font-family: 'Qwigley', cursive;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 25px;
+
+}
+
+.page-title .title--heading h1 {
+    font-family: 'Qwigley', cursive;
+    font-size: 130px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.divider--shape-1up {
+    width: 100%;
+    height: 10px;
+    background: url(../images/background/shapes/shape-3up.png) center repeat-x;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.divider--shape-1down {
+    width: 100%;
+    height: 10px;
+    background: url(../images/background/shapes/shape-3down.png) center repeat-x;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.bg-overlay-dark:before {
+    background-color: rgba(27, 26, 26, 0.55)
+}
+
+.body-bordered .wrapper {
+    background-color: #e1be64;
+    padding: 20px;
+}
+
+/* hero slider */
+
+.slider .slide--headline {
+    font-weight: 400;
+    font-family: 'Qwigley', cursive;
+}
+
+.hermes .tp-bullet {
+    width: 10px !important;
+    height: 10px !important;
+}
+
+/* services */
+
+.service-panel img {
+    margin-bottom: 26px;
+}
+
+.service-panel h3 {
+    font-family: 'Qwigley', cursive;
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+
+/* specials */
+
+.specials .dishes-wrapper {
+    padding: 78px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 2px;
+
+}
+
+.dish-panel {
+    margin-bottom: 50px;
+}
+
+.dish-panel:last-of-type {
+    margin-bottom: 0;
+}
+
+.dish-panel .dish--title {
+    font-family: 'Qwigley', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1;
+    color: #e1be64;
+    margin-bottom: 12px;
+}
+
+.dish-panel .dish--desc {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 0;
+}
+
+/* menu */
+
+.menu .dish-panel {
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 18px;
+    border-bottom: 1px dashed rgba(156, 156, 156, 0.4);
+}
+
+.menu .dish-panel .dish--title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #282828
+}
+
+.menu .dish-panel .dish--price {
+    font-size: 15px;
+    font-weight: 800;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-bottom: 0;
+    color: #cda964
+}
+
+/* portfolio */
+
+.portfolio-item .portfolio--img img {
+    padding: 1px;
+}
+
+/* blog */
+
+.blog-standard .blog-entry:hover .entry--more a {
+    color: #fff
+}
+
+/* footer */
+
+.footer {
+    position: relative
+}
+
+.footer--widget-newsletter form {
+    margin-bottom: 30px;
+}
+
+.footer-social-icon a {
+    color: #e1be64
+}
+
+.footer-social-icon a:hover i:first-child {
+    margin: 0;
+}

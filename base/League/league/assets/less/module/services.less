@@ -1,0 +1,73 @@
+/*------------------------------------*\
+    #Services
+\*------------------------------------*/
+
+.service-panel {
+	-webkit-transition: all 0.35s;
+	-moz-transition: all 0.35s;
+	-ms-transition: all 0.35s;
+	-o-transition: all 0.35s;
+	transition: all 0.35s;
+}
+
+.service-panel:hover {
+	-webkit-transform: translateY(-4px);
+	-moz-transform: translateY(-4px);
+	transform: translateY(-4px);
+}
+
+.service-panel img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 40px;
+}
+
+.service-panel h3 {
+	color: #222222;
+	font-family: @font-body;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+}
+
+.service-panel p {
+	color: @color-body;
+	font-family: @font-body;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 23px;
+	padding: 0 17px;
+	text-transform: capitalize;
+}
+
+.service-panel .link-more {
+	color: #333333;
+	font-family: @font-body;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+
+.service-panel .link-more i {
+	margin-right: 6px;
+	opacity: 0;
+}
+
+.service-panel:hover .link-more {
+	color: @color-theme;
+}
+
+.service-panel:hover .link-more i {
+	opacity: 1;
+}
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+	.service-panel {
+		margin-bottom: 30px;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width : 991px) {}

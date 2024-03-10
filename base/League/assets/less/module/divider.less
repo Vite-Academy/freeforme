@@ -1,0 +1,50 @@
+/*------------------------------------*\
+    #Divider
+\*------------------------------------*/
+
+.divider--line {
+  position: relative;
+  height: 2px;
+}
+
+.divider--line:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 40px;
+  background-color: @color-theme;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+.divider--center:after {
+  left: 50%;
+  margin-left: -20px;
+}
+
+.divider--medium:after {
+  width: 70px;
+}
+
+.divider--center.divider--medium:after {
+  margin-left: -35px;
+}
+
+.divider--line.divider--white:after {
+  background-color: @color-white;
+}
+
+.divider--line.divider--gray:after {
+  background-color: @color-body;
+}
+
+.section-bordered {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.divider--section {
+  border-top: 1px solid #f0f0f0;
+  margin-top: 0;
+  margin-bottom: 0;
+}

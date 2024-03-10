@@ -1,0 +1,43 @@
+
+.single .comments-title, 
+.page .comments-title,
+.single .comment-reply-title,
+.page .comment-reply-title {
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 18px;
+}
+.single .comments-title, 
+.page .comments-title {
+    margin-bottom: 35px;
+}
+input[type="text"], 
+input[type="email"], 
+input[type="url"], 
+input[type="password"], 
+input[type="search"], 
+input[type="tel"], 
+input[type="number"], 
+textarea, 
+textarea.form-control, 
+select, select.form-control {
+    padding: 15px;
+}
+@media (max-width:767px) {
+    input[type="text"], 
+    input[type="email"], 
+    input[type="url"], 
+    input[type="password"], 
+    input[type="search"], 
+    input[type="tel"], 
+    input[type="number"], 
+    textarea, 
+    textarea.form-control, 
+    select, select.form-control {
+        padding: 12px 15px;
+    }
+    .comment-form-author, .comment-form-email {
+        width: 100%;
+    }
+}

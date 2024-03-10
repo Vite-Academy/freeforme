@@ -1,0 +1,35 @@
+/* TABLE OF CONTENT
+ * ==================
+ *  BASE
+ *      - Vendors Stylesheet.
+ *      - Basic Theme Stylesheet (Layout, Content)
+ *  GENERAL
+ *      - Theme Settings (Background, Heading, Typography)
+ *  HOME
+ *      - Featured Slider
+ *      - Post Grid A
+ *      - Post Vertical Lists (Post No Thumbnail)
+ *      - Post Grid B
+ *      - Post Grid C
+ *      - Post Grid D
+ *  HEADER
+ *  FOOTER
+ *  SINGLE PAGE
+ *      - Single
+ *      - Single Gallery
+ *  404 Page
+ *  SIDEBAR
+ *      - Widgets
+ *  CUSTOM
+ *   - Font
+ *   - Color
+ **/
+
+@import url("vendors.css");
+@import url("basic.css");
+@import url("takei.css");
+@import url("single.css");
+@import url("gallery.css");
+@import url("404.css");
+@import url("font.css");
+@import url("color.css");

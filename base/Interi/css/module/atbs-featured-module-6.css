@@ -1,0 +1,69 @@
+/*************************
+*
+*  Featured Module 6
+*
+*************************/
+
+.team-profile .profile__image {
+    margin-bottom: 15px;
+}
+.team-profile .profile__name {
+    font-size: 1.57142857143rem;
+    line-height: 1.4;
+    font-weight: 600;
+    color: var(--color-dark-contrast-100);
+}
+.team-profile .profile__bio {
+    font-size: 1.14285714286rem;
+    line-height: 1.8;
+    font-weight: 400;
+    color: var(--color-dark-contrast-60);
+    font-style: italic;
+}
+@media (min-width: 576px) {
+    .team-profile:nth-child(2n) {
+        margin-top: 70px;
+    }
+}
+@media (max-width: 1199px) {
+    .team-profile .profile__name {
+        font-size: 1.42857142857rem;
+        line-height: 1.4;
+    }
+    .team-profile .profile__image {
+        height: 390px;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px){
+    .our-team {
+        margin: 0 -40px;
+    }
+    .our-team > * {
+        width: 50%;
+        padding: 0 40px;
+    }
+    .team-profile .profile__image {
+        height: 420px;
+    }
+}
+@media (max-width: 767px) {
+    .our-team {
+        margin: 0 -20px;
+    }
+    .our-team > * {
+        width: 50%;
+        padding: 0 20px;
+    }
+}
+@media (max-width: 575px) {
+    .our-team {
+        margin: -15px;
+    }
+    .our-team > * {
+        width: 100%;
+        padding: 15px;
+    }
+    .team-profile .profile__image {
+        height: 320px;
+    }
+}

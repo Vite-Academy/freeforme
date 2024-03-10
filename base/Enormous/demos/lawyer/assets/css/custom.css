@@ -1,0 +1,39 @@
+.page-title .title {
+    padding: 115px 0 125px;
+}
+
+.bg-overlay-dark:before {
+    background-color: rgba(27, 26, 26, 0.25);
+}
+
+.hermes .tp-bullet {
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.top-bar.topbar-transparent .top--social a {
+    color: #222222;
+}
+
+.top-bar.topbar-transparent .top--social a.btn {
+    width: 106px;
+    border: none;
+    color: #fff;
+}
+
+.header-topbar {
+    height: 115px;
+}
+
+.header-topbar .navbar {
+    top: 16px;
+}
+
+
+.service-panel h3 {
+    margin-bottom: 21px;
+}
+
+.video--content .video--button .popup-video {
+    background-color: rgba(34, 34, 34, 0.3);
+}

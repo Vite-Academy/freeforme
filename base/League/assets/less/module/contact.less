@@ -1,0 +1,154 @@
+/*------------------------------------*\
+    #CONTACT-PAGE
+\*------------------------------------*/
+
+.contact--info h3 {
+	color: #222222;
+	font-family: @font-body;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1;
+	margin-bottom: 20px;
+}
+
+.contact--info p {
+	color: @color-body;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1;
+	margin-bottom: 6px;
+}
+
+.contact--info p:last-of-type {
+	margin-bottom: 16px;
+}
+
+a.link--styled {
+	color: @color-theme;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 1;
+	text-transform: uppercase;
+	position: relative;
+	padding-bottom: 4px;
+}
+
+.contact-form .form-control {
+	color: @color-body;
+	font-family: @font-body;
+	font-size: 13px;
+	font-weight: 800;
+	line-height: 49px;
+	text-transform: uppercase;
+	border: none;
+	border-bottom: 2px solid #eee;
+	background: transparent;
+	padding-left: 0;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.contact-form .form-control:focus {
+	border-bottom-color: @color-theme;
+}
+
+.form-container {
+	padding: 50px 35px;
+	box-shadow: 0 2px 3px rgba(40, 40, 40, 0.06);
+	border-radius: 1px;
+	background-color: @color-white;
+	min-height: 305px;
+}
+
+.form-container p {
+	color: @color-theme;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 23px;
+	padding-top: 50px;
+}
+
+.contact-row {
+	margin-top: -329px;
+	position: relative;
+	z-index: 99;
+}
+
+.contact-panel {
+	box-shadow: 0 2px 3px rgba(40, 40, 40, 0.06);
+	border-radius: 1px;
+	background-color: @color-white;
+	text-align: center;
+	padding: 50px 28px;
+	margin-bottom: 5px;
+}
+
+.contact-panel i {
+	font-size: 40px;
+	line-height: 1;
+	margin-bottom: 30px;
+	color: @color-theme;
+	display: block;
+}
+
+.contact-panel h3 {
+	color: #222222;
+	font-family: @font-body;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1;
+	margin-bottom: 24px;
+}
+
+.contact-panel p {
+	color: @color-body;
+	font-family: Raleway;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 23px;
+	margin-bottom: 40px;
+}
+
+.contact-panel .contact-action {
+	color: @color-theme;
+	font-family: @font-body;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 1;
+	text-transform: uppercase;
+}
+
+.contact-panel:hover .contact-action {
+	color: @color-heading;
+}
+
+.contact-panel.contact-minimal {
+	box-shadow: none;
+	border-radius: 0;
+	background-color: @color-white;
+	text-align: center;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.contact-panel.contact-minimal p {
+	margin-bottom: 17px;
+}
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+	.contact--info {
+		margin-bottom: 30px;
+	}
+	.form-container p{
+		padding-top: 0
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+	.contact--info {
+		margin-bottom: 30px;
+	}
+	.form-container p{
+		padding-top: 0
+	}
+}

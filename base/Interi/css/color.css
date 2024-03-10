@@ -1,0 +1,39 @@
+/*************************
+*
+*  Color
+*
+*************************/
+:root {
+    --color-primary:                #ad9271;
+    --color-secondary:              #17161A;
+    --color-front:                  #A4A3A6;
+    --background-primary:           #191919;
+    --background-secondary:         #212121;
+    --color-title:                  #222222;
+    --color-excerpt:                rgba(34,34,34,0.4);
+    --color-meta:                   rgba(34,34,34,0.7);
+    --color-border:                 rgba(0,0,0,0.1);
+    --color-button:                 #222222;
+
+    --color-white-contrast-100:     #fff;
+    --color-white-contrast-90:      rgba(255,255,255,0.9);
+    --color-white-contrast-80:      rgba(255,255,255,0.8);
+    --color-white-contrast-70:      rgba(255,255,255,0.7);
+    --color-white-contrast-60:      rgba(255,255,255,0.6);
+    --color-white-contrast-50:      rgba(255,255,255,0.5);
+    --color-white-contrast-40:      rgba(255,255,255,0.4);
+    --color-white-contrast-30:      rgba(255,255,255,0.3);
+    --color-white-contrast-20:      rgba(255,255,255,0.2);
+    --color-white-contrast-10:      rgba(255,255,255,0.1);
+
+    --color-dark-contrast-100:     rgba(34,34,34,1);
+    --color-dark-contrast-90:      rgba(34,34,34,0.9);
+    --color-dark-contrast-80:      rgba(34,34,34,0.8);
+    --color-dark-contrast-70:      rgba(34,34,34,0.7);
+    --color-dark-contrast-50:      rgba(34,34,34,0.5);
+    --color-dark-contrast-60:      rgba(34,34,34,0.6);
+    --color-dark-contrast-40:      rgba(34,34,34,0.4);
+    --color-dark-contrast-30:      rgba(34,34,34,0.3);
+    --color-dark-contrast-20:      rgba(34,34,34,0.2);
+    --color-dark-contrast-10:      rgba(34,34,34,0.1);
+}

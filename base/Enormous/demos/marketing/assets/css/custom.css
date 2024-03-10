@@ -1,0 +1,42 @@
+ .header-topbar {
+     height: 115px;
+ }
+
+ .header-transparent + .slider {
+     margin-top: -115px;
+ }
+
+ .navbar-header {
+     line-height: 90px;
+ }
+
+ .header .navbar {
+     height: 90px;
+     min-height: 90px;
+ }
+
+ .top-bar {
+     top: 17px;
+ }
+
+ .navbar-nav > li > a,
+ .module .module-icon {
+     line-height: 110px;
+ }
+
+ .divider--line.divider--white:after {
+     background-color: #ffffff !important;
+ }
+
+ .page-title .title {
+     padding-top: 240px;
+ }
+
+
+ /* Custom, iPhone Retina */
+
+ @media only screen and (min-width: 320px) and (max-width :767px) {
+     .top-bar {
+         top: 0;
+     }
+ }

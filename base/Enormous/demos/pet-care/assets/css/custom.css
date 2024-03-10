@@ -1,0 +1,31 @@
+.bg-overlay-dark:before {
+    background-color: rgba(27, 26, 26, 0.25);
+}
+ 
+.bg-overlay-dark2:before {
+    background-color: rgba(27, 26, 26, 0.15);
+}
+ 
+
+.feature-heading .feature-panel .feature-more {
+    color: #222222
+}
+
+.cta-row {
+    padding: 40px;
+}
+
+.page-title .title {
+    padding: 165px 0 156px;
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .cta-row {
+        padding: 40px 0;
+    }
+
+
+}

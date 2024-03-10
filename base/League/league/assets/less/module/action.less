@@ -1,0 +1,160 @@
+/*------------------------------------*\
+    #Call To Action
+\*------------------------------------*/
+
+.cta {
+  padding: 59px 0;
+}
+
+.cta h3 {
+  font-family: @font-heading;
+  font-size: 35px;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 50px;
+  margin-bottom: 0;
+  color: @color-white;
+}
+
+.cta p {
+  color: #f9f9f9;
+  font-family: @font-body;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+/* CTA #3 */
+
+.cta-3 {
+  padding: 60px 0;
+}
+
+.cta-3 h3 {
+  color: @color-dark;
+}
+/* CTA #4 */
+
+.cta-4 {
+  padding: 80px 0;
+}
+
+.cta-4 h3 {
+  margin-bottom: 20px;
+  font-size: 55px;
+}
+/* CTA #5 */
+
+.cta-5 .btn-hover {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+  -ms-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+.cta-5 .btn-hover img {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.cta-5 .btn-hover::before {
+  position: absolute;
+  top: 0;
+  left: -75%;
+  z-index: 2;
+  display: block;
+  content: '';
+  width: 50%;
+  height: 100%;
+  background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+  background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+  -webkit-transform: skewX(-25deg);
+  transform: skewX(-25deg);
+}
+
+.cta-5 .btn-hover:hover::before {
+  -webkit-animation: shine 0.75s;
+  animation: shine 0.75s;
+}
+@-webkit-Keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+/* CTA #6 */
+
+.cta-6 {
+  padding: 200px 0;
+}
+
+.cta-6 h3 {
+  margin-bottom: 20px;
+  font-size: 55px;
+  line-height: 65px;
+}
+/* CTA #7 */
+
+.cta-7 {
+  padding: 150px 0;
+}
+
+.cta-7 p {
+  margin-bottom: 22px;
+}
+
+.cta-7 h3 {
+  margin-bottom: 33px;
+  font-size: 55px;
+  line-height: 65px;
+}
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+  .cta,
+  .cta .text-right {
+    text-align: center;
+  }
+
+  .cta h3 {
+    font-size: 31px;
+    line-height: 45px;
+    margin-bottom: 30px;
+  }
+
+  .cta-5 .btn-hover {
+    margin-right: 0 !important;
+  }
+	.cta-7 {
+		padding: 50px 0;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+	.cta h3{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.cta .text-right{
+		text-align: center !important
+	}
+	.cta-7 {
+    padding: 90px 0;
+}
+}

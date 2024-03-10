@@ -1,0 +1,114 @@
+/*************************
+*
+*  Featured Module 3
+*
+*************************/
+.atbs-featured-module-3 .section-main {
+    padding-left: 15%;
+    margin-right: calc((100vw - 100%) / -2 - 100px);
+}
+.atbs-featured-module-3 .section-sub {
+    margin-top: -200px;
+}
+
+.service-card {
+    border: 1px solid var(--color-border);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: var(--color-white-contrast-100);
+}
+.service-card .service__label {
+    padding: 15px 20px 10px 20px;
+    border-bottom: 1px solid var(--color-border);
+    color: var(--color-dark-contrast-60);
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.service-card .service__name {
+    padding: 20px 20px 15px 20px;
+    font-size: 1.42857142857rem;
+    line-height: 1.4;
+    font-weight: 600;
+    color: var(--color-primary);
+}
+.service-card .service__image {
+    margin-bottom: 20px;
+    height: 200px;
+}
+.service-card .service__description {
+    padding: 0 20px 20px 20px;
+    margin-top: 0;
+}
+@media (min-width: 1200px) {
+    .atbs-featured-module-3 .services-list .list-item:not(:first-child) .service-card {
+        border-left: 0;
+    }
+}
+@media (max-width: 1440px) {
+    .atbs-featured-module-3 .img-field[data-height="580"] {
+        height: 520px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .atbs-featured-module-3 .atbs-block__inner {
+        padding-left: 0;
+    }
+}
+@media (max-width: 1080px) {
+    .atbs-featured-module-3 .services-list > * {
+        width: 50%;
+    }
+    .atbs-featured-module-3 .services-list > *:nth-child(n + 3) .service-card {
+        border-top: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .atbs-featured-module-3 .atbs-block__inner {
+        padding-left: 7%;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .atbs-featured-module-3 .services-list .list-item:nth-child(2n):not(:first-child) .service-card {
+        border-left: 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .atbs-featured-module-3 .atbs-block__inner {
+        padding-left: 15px;
+    }
+    .atbs-featured-module-3 .section-main {
+        padding-left: 0;
+        margin-left: -15px;
+    }
+    .atbs-featured-module-3 .section-sub {
+        margin-top: 40px;
+    }
+
+    .atbs-featured-module-3 .img-field[data-height="580"] {
+        height: 350px;
+    }
+
+    .atbs-featured-module-3 .services-list > * {
+        width: 100%;
+    }
+    .atbs-featured-module-3 .services-list > *:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    .service-card .service__image {
+        height: 250px;
+    }
+}
+@media (max-width: 380px) {
+    .service-card .service__image {
+        height: 220px;
+    }
+}

@@ -1,0 +1,11 @@
+:root {
+    --color-primary:                #E8453E;
+    --color-secondary:              #00f9ff;
+    --background-primary:           #F5F5FA;
+    --background-secondary:         #fff;
+    --color-title:                  #222222;
+    --color-excerpt:                rgba(34,34,34,0.4);
+    --color-meta:                   rgba(34,34,34,0.8);
+    --color-border:                 rgba(0,0,0,0.1);
+    --color-button:                 #222222;
+}

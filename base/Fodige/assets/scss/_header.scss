@@ -1,0 +1,255 @@
+.header-main-menu {
+	.navbar-nav {
+		display: inherit;
+	}
+	.dropdown {
+		position: relative;
+		&:before {
+			top: 2px;
+			color: #fff;
+			right: -20px;
+			content: '\f078';
+			font-size: 16px;
+			font-weight: 900;
+			position: absolute;
+			transition: .3s all ease-in-out;
+			font-family: 'Font Awesome 5 Free';
+		}
+		&:hover {
+			.dropdown-menu {
+				transform: scaleY(1);
+			}
+		}
+	}
+	.dropdown-menu {
+		left: 0;
+		top: 48px;
+		z-index: 100;
+		margin: 0px;
+		padding: 0px;
+		height: auto;
+		width: 200px;
+		display: block;
+		border: none;
+		border-radius: 0;
+		overflow: hidden;
+		position: absolute;
+		transform: scaleY(0);
+		background-color: #fff;
+		transition: all .4s ease-in-out;
+		transform-origin: center top 0;
+		background-color: $base-color;
+		li {
+			display: block;
+			margin: 0 !important;
+			border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+			&:last-child {
+				border-bottom: none;
+			}
+		}
+		a {
+			width: 100%;
+			display: block;
+			padding: 10px 20px 10px !important;
+			color: #fff !important;
+			font-weight: 400 !important;
+			font-size: 15px !important;
+			&:hover {
+				color: #fff;
+				background-color: $base-color;
+			}
+		}
+	}
+}
+.header-style-one {
+	z-index: 9;
+	width: 100%;
+	padding-top: 30px;
+	position: absolute;
+	.main-header-wrap {
+		padding-bottom: 25px; 
+		border-bottom: 1px solid #3d4164;
+	}
+	.main-navigation {
+		padding-top: 15px;
+		li {
+			margin: 0px 28px;
+			a {
+				color: #e9edff;
+				padding-bottom: 30px;
+			}
+		}
+	}
+	.fd-book-btn {
+		height: 50px;
+		width: 170px;
+		line-height: 48px;
+		border-radius: 2px;
+		border: 1px solid $base-color;
+		margin-left: 45px;
+		a {
+			width: 100%;
+			color: #fff;
+			display: block;
+		}
+	}
+}
+.header-style-three {
+	padding: 20px 0px;
+	border-bottom: 1px solid #ffecc9;
+	.brand-logo {
+		margin-right: 140px;
+	}
+	.main-navigation {
+		padding-top: 15px;
+		li {
+			margin: 0px 20px;
+			a {
+				color: #252450;
+				padding: 0px 5px 30px;
+				position: relative;
+				&:after {
+					left: 0;
+					top: 5px;
+					content: '';
+					width: 0%;
+					height: 100%;
+					position: absolute;
+					background-repeat: no-repeat;
+					transition: .3s all ease-in-out;
+					background-image: url(../img/logo/mh1.png);
+				}
+				&:hover,
+				&.active {
+					color: $base-color3;
+					&:after {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+	.fd-book-btn { 
+		width: 140px;
+		padding-top: 10px;
+		&:after {
+			top: -20px;
+			left: 0;
+			height: 17px;
+			content: '';
+			width: 140px;
+			position: absolute;
+			background-color: $base-color3;
+		}
+		a {
+			@extend%btn-underline;
+			&:after {
+				background-color: #252450;
+			}
+		}
+
+	}
+}
+.header-vertical-area {
+	left: 0px;
+	z-index: 9;
+	width: 280px;
+	position: absolute;
+	padding: 30px 0px 180px;
+	background-color: #ffefef;
+	border-top-right-radius: 80px;
+	border-bottom-right-radius: 80px;
+	transition: .3s all ease-in-out;
+	.vertical-menu-toggle {
+		top: 40px;
+		right: -70px;
+		display: none;
+		cursor: pointer;
+		position: absolute;
+		background-color: #40224e;
+		padding: 10px 15px 5px 15px;
+		i {
+			font-size: 25px;
+			color: $base-color;
+		}
+	}
+	&:before {
+		left: 0;
+		right: 0;
+		top: 125px;
+		content: '';
+		z-index: -1;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background-repeat: no-repeat;
+		background-image: url(../img/logo/vh.png);
+	}
+	.brand-logo {
+		padding-bottom: 160px;
+	}
+	.header-main-menu {
+		li {
+			margin-bottom: 35px;
+		}
+	}
+	.vertical-header-social {
+		a {
+			margin: 0px 10px;
+		}
+	}
+	.header-main-menu .dropdown:before {
+		display: none;
+	}
+	.header-main-menu .dropdown-menu {
+		transform: scale(1);
+		height: inherit;
+		transform-origin: inherit;
+		transition: inherit;
+		width: 100%;
+		display: none;
+	}
+	.dropdown-btn {
+		top: 2px;
+		right: 95px;
+		cursor: pointer;
+		position: absolute;
+	}
+}
+/*Stickey header*/
+/*----------------------------------------------------*/
+.sticky-on {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+	position: fixed;
+	z-index: 9;
+	width: 100%;
+	-webkit-animation-timing-function: ease;
+	animation-timing-function: ease;
+	-webkit-transition: .7s all ease-in-out;
+	-o-transition: .7s all ease-in-out;
+	transition: .7s all ease-in-out;
+	&.header-style-one {
+		background-color: #121850;
+		padding: 15px 0px 0px;
+		.main-header-wrap { 
+			border-bottom: none;
+			padding-bottom: 15px;
+		}
+	}
+	&.header-style-three { 
+		background-color: #fff;
+	}
+}
+.home-two-v2 {
+	.header-vertical-area {
+		left: 0;
+	}
+	.header-vertical-area .vertical-menu-toggle {
+		display: none;
+	}
+}

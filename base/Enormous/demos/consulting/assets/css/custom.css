@@ -1,0 +1,96 @@
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.contact--info h3,
+.page-title .title--heading h1,
+.accordion .panel .panel--heading a,
+.testimonial-8 .testimonial--body p,
+.testimonial-9 .testimonial--body p,
+.slider .slide--headline {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page-title .title {
+    padding: 185px 0 90px;
+}
+
+.video-button-1 p {
+    color: #a5a5a5;
+}
+
+
+.testimonial-panel .testimonial--icon-2 {
+    background: url(../images/testimonial/icon-2.png) center no-repeat;
+}
+
+
+.blog-entry {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 40px;
+}
+
+.blog-entry .entry--content {
+    padding: 33px 0 0
+}
+
+.blog-entry .entry--bio {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.module-contact .contact-btn {
+    width: 90px;
+    height: 29px;
+    line-height: 29px;
+    border: none;
+    background-color: #fc5d4a !important;
+    color: #ffffff !important;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+
+.module-contact .contact-btn:hover {
+    background-color: #222222 !important;
+    color: #ffffff;
+
+}
+
+
+.footer--widget-recent .entry .entry--meta {
+    padding-bottom: 18px;
+    border-bottom: 1px solid rgba(206, 206, 206, 0.05);
+}
+
+.footer--widget-recent .entry:last-of-type .entry--meta {
+    border-bottom: none;
+}
+
+
+.accordion .col-content {
+    padding: 96px 100px 110px 120px;
+}
+
+
+.testimonial-panel .testimonial--meta-img {
+    width: 60px;
+    height: 60px;
+    padding: 3px;
+    background-color: #282828;
+    border-color: #8a8581;
+}

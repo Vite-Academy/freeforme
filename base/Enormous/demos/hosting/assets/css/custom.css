@@ -1,0 +1,33 @@
+.hermes .tp-bullet {
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.bg-overlay-theme2:before {
+    background-color: rgba(40, 143, 235, 0.85) !important;
+}
+
+.header {
+    background-color: #222222;
+}
+
+.header-16 .navbar {
+    top: 50px;
+}
+
+.header-transparent + .slider {
+    margin-top: 0;
+}
+
+.header-transparent.header-light .navbar.affix {
+    background-color: #fff;
+}
+
+
+.page-title .title-6 {
+    padding: 270px 0 141px;
+}
+
+.page-title .title-6 .title--heading {
+    margin-bottom: 13px;
+}

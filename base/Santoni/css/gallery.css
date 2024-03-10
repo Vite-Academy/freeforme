@@ -1,0 +1,106 @@
+/*************************
+*
+*  Single Gallery
+*
+*************************/
+.post-gallery-slider {
+  margin-top: 0;
+}
+.post-gallery-slider .owl-item {
+  -webkit-transform: scale(0.8,0.8);
+  -ms-transform: scale(0.8,0.8);
+  transform: scale(0.8,0.8);
+  -webkit-transform-origin: bottom center;
+  -ms-transform-origin: bottom center;
+  transform-origin: bottom center;
+  -webkit-transition: all 0.7s cubic-bezier(0.23,1,0.32,1);
+  -o-transition: all 0.7s cubic-bezier(0.23,1,0.32,1);
+  transition: all 0.7s cubic-bezier(0.23,1,0.32,1);
+  position: relative;
+
+}
+.post-gallery-slider .owl-item.active.center {
+
+  z-index: 1;
+  -webkit-transform: scale(1,1);
+  -ms-transform: scale(1,1);
+  transform: scale(1,1);
+}
+.post-gallery-slider .owl-dots {
+  display: none;
+}
+.post-gallery-slider .owl-carousel .owl-stage-outer {
+  overflow: unset;
+}
+.post-gallery-slider .owl-item.active.center {
+  z-index: 1;
+}
+@media (max-width: 567px) {
+  .post-gallery-slider .post-single__inner .author-wrap {
+    display: none;
+  }
+}
+.slider-overlay .owl-nav {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.post-gallery-slider .slider-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #4c525a70;
+  color: var(--color-white);
+  opacity: 0;
+  visibility: hidden;
+  padding: 20px;
+  text-align: center;
+  -webkit-transform: translateY(100px);
+  -ms-transform: translateY(100px);
+      transform: translateY(100px);
+}
+.atbs-carousel .owl-prev, .atbs-carousel .owl-next{
+    background: none;
+}
+.atbs-carousel .owl-prev i, .atbs-carousel .owl-next i{
+    font-size: 60px;
+    font-weight: 300;
+    
+}
+.atbs-carousel .owl-prev:hover, .atbs-carousel .owl-next:hover{
+    background: none;
+}
+.post-gallery-slider .slider-caption p {
+  margin: 0;
+}
+.post-gallery-slider .gallery-thumb {
+  position: relative;
+  overflow: hidden;
+}
+.post-gallery-slider .owl-item.active.center .slider-caption {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: all 1s cubic-bezier(0.23,1,0.32,1);
+  -o-transition: all 1s cubic-bezier(0.23,1,0.32,1);
+  transition: all 1s cubic-bezier(0.23,1,0.32,1);
+  -ms-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+@media (max-width: 567px) {
+  .post-single__inner .author-wrap {
+    display: none;
+  }
+  .slider-overlay .owl-nav{
+    top: 50%;
+    
+  }
+  .atbs-carousel .owl-prev i, .atbs-carousel .owl-next i{
+    font-size: 24px;
+  }
+}

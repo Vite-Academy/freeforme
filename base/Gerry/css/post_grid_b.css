@@ -1,0 +1,100 @@
+/*************************
+*
+*  Post Grid B
+*
+*************************/
+.atbs-post--grid-b .category-tile {
+    left: 220px;
+}
+
+.atbs-post--grid-b .small-post--vertical {
+    padding-top: 130px;
+}
+
+.post--grid-b__inner {
+    position: relative;
+}
+
+.atbs-post--grid-b .background-circle:before {
+    top: 30px;
+
+}
+
+.atbs-post--grid-b .category-tile {
+    -webkit-transform: translatey(50%);
+    -ms-transform: translatey(50%);
+    transform: translatey(50%);
+}
+@media (min-width: 1200px) {
+    .atbs-post--grid-b .small-post--vertical .post__thumb {
+        margin-left: 100px;
+        margin-right: 70px;
+    }
+    .atbs-post--grid-b .small-post--vertical .title-style-2 {
+        font-size: 24px;
+        max-width: 280px;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .atbs-post--grid-b .small-post--vertical-style-1 .post__thumb {
+        margin-left: 40px;
+        margin-right: 40px;
+        height: 425px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .atbs-post--grid-b .small-post--vertical-style-1 .post__thumb {
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 340px;
+    }
+
+    .atbs-post--grid-b .big-post--vertical .post__title {
+        max-width: 290px;
+    }
+}
+
+@media (max-width: 991px) {
+    .atbs-post--grid-b .small-post--vertical {
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    .atbs-post--grid-b .big-post--vertical .post__title {
+        max-width: 290px;
+    }
+
+}
+
+@media (max-width: 680px) and (min-width: 576px) {
+    .big-post-st-2 .post--vertical-reverse .post__thumb {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .big-post-st-2 .post__thumb {
+        height: 475px;
+    }
+}
+
+@media (max-width: 575px) {
+    .atbs-post--grid-b .small-post--vertical {
+        padding-top: 0;
+    }
+
+    .atbs-post--grid-b .big-post--vertical {
+        margin-top: 40px;
+    }
+
+    .big-post-st-2 .post--vertical-reverse .post__thumb {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .post__title.title-inline-top {
+        margin-top: 0;
+        float: none;
+    }
+}

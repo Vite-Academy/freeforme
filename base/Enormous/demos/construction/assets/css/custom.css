@@ -1,0 +1,92 @@
+/* slider */
+
+.bg-overlay-dark:before {
+    background-color: rgba(27, 26, 26, 0.25);
+}
+
+.slider .slide--headline {
+    text-transform: uppercase;
+}
+
+.page-title .title {
+    padding: 107px 0 116px;
+}
+
+.page-title .title-4 .title--heading {
+    margin-bottom: 15px;
+}
+
+.page-title .title--heading h1 {
+    font-size: 55px;
+    text-transform: uppercase;
+}
+
+/* portfolio */
+
+.portfolio-grid .portfolio-item {
+    margin-bottom: 0;
+}
+
+.portfolio-item .portfolio--hover .portfolio--action {
+    background-color: rgba(34, 34, 34, 0.9) !important;
+}
+
+.portfolio-item .portfolio--cat a {
+    color: #fff !important;
+}
+
+/* footer */
+
+.footer {
+    background-color: transparent;
+    padding-top: 90px;
+}
+
+.footer-widget {
+    padding-top: 70px;
+}
+
+.footer .footer--contact {
+    position: relative;
+    background-color: #202020;
+    padding: 30px;
+    min-height: 130px;
+}
+
+.footer .footer--contact .footer--contact-icon {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 40px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    color: #ffc527;
+    border: 2px solid rgba(249, 249, 249, 0.15);
+}
+
+.footer .footer--contact .footer--contact-content {
+    padding-left: 95px;
+    padding-top: 14px;
+}
+
+
+.footer .footer--contact .footer--contact-content p {
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 0;
+}
+
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .footer .footer--contact {
+        margin-bottom: 30px;
+    }
+
+}

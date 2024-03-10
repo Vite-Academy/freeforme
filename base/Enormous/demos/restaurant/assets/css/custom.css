@@ -1,0 +1,483 @@
+.divider--shape {
+    width: 54px;
+    height: 14px;
+    background: url(../images/background/shapes/divider-shape.png) center no-repeat;
+    display: inline-block;
+
+}
+
+.divider--shape2 {
+    width: 33px;
+    height: 3px;
+    background: url(../images/background/shapes/divider-shape2.png) center no-repeat;
+    display: inline-block;
+
+}
+
+.heading .heading--subtitle {
+    color: #bb9356;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 6px;
+    font-family: 'Tangerine', cursive;
+}
+
+.heading .divider--img + .heading--desc {
+    margin-top: 16px;
+}
+
+.heading .heading--title {
+    font-family: 'Merienda One', cursive;
+    font-weight: 400;
+}
+
+.page-title .title-4 {
+    padding-bottom: 130px;
+}
+
+.page-title .title-4 .title--heading {
+    margin-bottom: 0;
+}
+
+.page-title .title--subtitle {
+    color: #bb9356;
+    font-family: 'Tangerine', cursive;
+    font-size: 35px;
+    font-style: italic;
+    line-height: 1;
+    margin-bottom: 11px;
+}
+
+.page-title .title--heading h1 {
+    font-family: 'Merienda One', cursive;
+    font-size: 65px;
+    font-weight: 400;
+}
+
+
+
+.bg-overlay-dark:before {
+    background-color: rgba(27, 26, 26, 0.25)
+}
+
+
+/* hero slider */
+
+.slider .slide--subheadline {
+    font-weight: 700;
+    font-family: 'Tangerine', cursive;
+}
+
+.slider .slide--headline {
+    font-weight: 400;
+    font-family: 'Merienda One', cursive;
+}
+
+.hermes .tp-bullet {
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.hesperiden.tparrows {
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.hesperiden.tparrows:before {
+    line-height: 60px !important;
+}
+
+.slider .btn--bordered.btn--white {
+    width: 270px;
+}
+
+/* services */
+
+.service-panel img {
+    margin-bottom: 26px;
+}
+
+.service-panel h3 {
+    font-family: 'Merienda One', cursive;
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+
+/* testimonial */
+
+.testimonial-7 {
+    padding: 195px 0;
+}
+
+.testimonial-7 .testimonial--body p {
+    font-size: 50px;
+    font-family: 'Tangerine', cursive;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1;
+    font-style: italic;
+    margin-bottom: 14px;
+}
+
+.testimonial-panel .testimonial--meta-content h4 {
+    font-size: 13px;
+    line-height: 1;
+    color: #d4af7a;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding-left: 10px;
+    display: inline-block;
+    position: relative
+}
+
+.testimonial-panel .testimonial--meta-content h4:before {
+    content: "-";
+    position: absolute;
+    top: 2px;
+    left: 0;
+}
+
+/* specials */
+
+.specials .dishes-wrapper {
+    padding: 100px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 2px;
+}
+
+.specials .dish-panel {
+    position: relative;
+    margin-bottom: 56px;
+    padding-right: 120px;
+}
+
+.specials .dish-panel:last-of-type {
+    margin-bottom: 0;
+}
+
+.dish-panel .dish--title {
+    font-family: 'Merienda One', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+
+.dish-panel .dish--desc {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 0;
+}
+
+.dish-panel .divider--shape2 + .dish--desc {
+    margin-top: 7px;
+}
+
+.dish-panel .dish--price {
+    font-family: 'Tangerine', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    top: 11px;
+    right: 0;
+    margin-bottom: 0;
+    color: #bb9356;
+}
+
+.dish-panel .dish--desc {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 0;
+}
+
+/* menu */
+
+.menu .dish-panel .dish--price {
+    font-size: 15px;
+    font-weight: 800;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-bottom: 0;
+    color: #cda964;
+    line-height: 1;
+}
+
+.menu .dishes-wrapper {
+    box-shadow: 0px 1px 73px 0px rgba(40, 40, 40, 0.1);
+    overflow: hidden;
+}
+
+.menu-2 .dish-panel {
+    overflow: hidden;
+    min-height: 290px;
+}
+
+.menu-2 .dish-panel .dish--content {
+    padding: 30px;
+}
+
+.menu-2 .dish-panel .dish--price {
+    margin-bottom: 18px;
+    position: relative;
+    font-size: 30px;
+    display: inline-block;
+}
+
+/* portfolio */
+
+.portfolio .row-no-padding {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.portfolio-item .portfolio--img {
+    padding: 0 5px 10px;
+}
+
+.portfolio-item .portfolio--hover .portfolio--action {
+    background-color: rgba(34, 34, 34, 0.95) !important;
+}
+
+/*  reservation */
+
+.form-select {
+    position: relative;
+}
+
+
+.form-select i {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.form-select select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    padding: 0 0 0 18px;
+}
+
+.reservation--desc {
+    font-size: 15px;
+    margin-bottom: 56px;
+}
+
+/* portfolio */
+
+.portfolio-item .portfolio--hover {
+    padding: 20px;
+}
+
+/* contact */
+
+.contact-panel {
+    background-color: #1b1b1b;
+    border-left: 1px solid rgba(238, 238, 238, 0.05);
+}
+
+.contact-panel h3 {
+    font-family: 'Merienda One', cursive;
+    font-weight: 400;
+    margin-bottom: 24px;
+    color: #fff;
+}
+
+.contact-panel:hover .contact-action {
+    color: #fff;
+}
+
+/* banners  */
+
+.banner .dish-banner .banner--img {
+    margin-bottom: 27px;
+}
+
+.banner .dish-banner .banner--content h3 {
+    color: #bb9356;
+    font-size: 30px;
+    font-family: 'Tangerine', cursive;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.banner .dish-banner .banner--content h4 {
+    font-family: 'Merienda One', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 19px;
+}
+
+.banner .dish-banner .banner--content p {
+    font-size: 14px;
+}
+
+.banner-2 .heading {
+    margin: 53px 0 31px;
+}
+
+.banner-2 .dish--price {
+    font-family: 'Tangerine', cursive;
+    font-size: 30px;
+    display: inline-block;
+    color: #bb9356;
+    margin-right: 30px;
+}
+
+.banner-2 .banner-img {
+    height: auto;
+}
+
+/* team */
+
+.member .member-overlay {
+    padding: 0;
+}
+
+.member .member-info h5 {
+    font-family: 'Merienda One', cursive;
+    margin-bottom: 12px;
+}
+
+.member .member-overlay .member-social a {
+    color: #bb9356
+}
+
+/* footer */
+
+footer-widget {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.footer--logo {
+    margin-bottom: 22px;
+}
+
+.footer-widget .footer--widget-content p {
+    margin-bottom: 29 px;
+}
+
+.footer--widget-newsletter form {
+    width: 270px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.footer-social-icon {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.contact-row-img {
+    margin-top: -425px;
+}
+
+
+.menu-2 .dish-panel .half-col {
+    width: 50%;
+    float: left;
+}
+
+.menu-2 .dish-panel.style1 .dish--img.half-col {
+    float: right;
+}
+
+.menu-2 .dish-panel.style1 .dish--content.half-col {
+    float: left;
+}
+
+.menu-2 .dish-panel.style2 .dish--img.half-col {
+    float: left;
+}
+
+.menu-2 .dish-panel.style2 .dish--content.half-col {
+    float: right;
+}
+
+.menu-2 .dish-panel .dish--img img{
+    max-width: 100%;
+}
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .specials .dish-panel {
+        padding: 0;
+    }
+    .dish-panel .dish--price {
+        position: static
+    }
+    .banner-2 .banner--img {
+        max-width: 270px;
+        margin: 0 auto 20px;
+    }
+
+    .dish-banner {
+        max-width: 370px;
+        margin: 0 auto 30px;
+    }
+    .menu-2 .dishes-wrapper {
+        padding-top: 30px;
+    }
+
+    .menu-2 .dish-panel .dish--img img {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+    .menu-2 .dish-panel .dish--content {
+        padding: 0 15px 30px;
+        min-height: 0;
+    }
+    .menu-2 .dish-panel .dish--img {
+        margin-bottom: 30px;
+    }
+
+    .menu-2 .dish-panel .dish--img img {
+        width: 100%;
+    }
+    .half-col,
+    .menu-2 .dish-panel.style2 .dish--img.half-col,
+    .menu-2 .dish-panel.style2 .dish--content.half-col {
+        float: none !important;
+        width: 100% !important;
+    }
+}
+
+/* small Devices , tablets*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .banner-2 .banner--img {
+        margin: 0 auto 30px;
+    }
+    .banner-2 .banner--img img {
+        width: 100%;
+    }
+    .menu-2 .dish-panel .dish--img img {
+        width: 100%;
+    }
+}
+
+/* Medium Screens */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .menu-2 .dish-panel {
+        min-height: 0;
+    }
+    .menu-2 .dish-panel .dish--content {
+        padding: 10px 5px 0;
+    }
+    
+}

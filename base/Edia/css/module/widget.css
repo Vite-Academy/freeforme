@@ -1,0 +1,16 @@
+/*************************
+*
+*  WIDGET
+*
+*************************/
+.widget-posts-list-2 .post--overlay-small .post__text {
+    min-height: 270px;
+}
+@media (max-width:991px) and (min-width:768px){
+    .widget-posts-list-2 .posts-list>* {
+        width: 50%;
+    }
+    .widget-posts-list-2 .post--overlay-small .post__text {
+        min-height: 230px;
+    }
+}

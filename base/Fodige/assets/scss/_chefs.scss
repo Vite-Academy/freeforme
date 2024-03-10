@@ -1,0 +1,73 @@
+.chefs-page-section {
+	padding: 120px 0px;
+}
+.chefs-img-text {
+	margin-bottom: 70px;
+	.chefs-img {
+		overflow: hidden;
+		border-radius: 15px;
+		margin-bottom: 15px;
+	}
+	.chefs-text {
+		&:after {
+			left: 45px;
+			height: 2px;
+			content: '';
+			width: 75px;
+			bottom: -25px;
+			position: absolute;
+			background-color: $base-color3;
+		}
+		.chefs-social {
+			float: left;
+			margin-right: 30px;
+			a {
+				display: block;
+			}
+		}
+		.chefs-name-degi {
+			h3 {
+				font-weight: 700;
+				font-size: 24px;
+				color: #131a33;
+				padding-bottom: 3px;
+			}
+			span {
+				color: #7a7a7a;
+			}
+		}
+	}
+}
+.food-menu-innerbox {
+	border-radius: 15px;
+	padding: 100px 40px;
+	background-color: $base-color3;
+	h3 {
+		color: #131a33;
+		font-size: 40px;
+		font-weight: 700;
+		padding-bottom: 43px;
+	}
+	a {
+		height: 65px;
+		width: 230px;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		font-weight: 500;
+		line-height: 65px;
+		background-color: #fff;
+	}
+}
+.chefs-side-img1 {
+	top: -30px;
+	left: 30px;
+}
+.chefs-side-img2 {
+	left: -50px;
+	bottom: 250px;
+}
+.chefs-side-img3 {
+	bottom: 0;
+	right: 0;
+}

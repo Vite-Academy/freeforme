@@ -1,0 +1,91 @@
+ .bg-overlay-dark:before {
+     background-color: rgba(27, 26, 26, 0.15);
+ }
+
+ .title-10 .breadcrumb {
+     margin-bottom: 13px;
+ }
+
+ .title-10 .title--heading {
+     margin-bottom: 4px;
+ }
+
+ .page-title .title-10 {
+     padding: 110px 0 107px;
+ }
+
+ /* header */
+
+ .top-bar-light {
+     background-color: #fff;
+     border-bottom: 1px solid rgba(34, 34, 34, 0.1);
+ }
+
+ .top-bar-light .top--contact,
+ .top-bar-light .top--social {
+     color: #9b9b9b
+ }
+
+ .top-bar-light .top--social a {
+     color: #333333
+ }
+
+ /* banners */
+
+ .interactive {
+     margin-top: -85px;
+     position: relative;
+     z-index: 3
+ }
+
+ .banner-panel-1 {
+     background-color: #3498db;
+ }
+
+ .banner-panel-2 {
+     background-color: #2089d0;
+ }
+
+ .banner-panel-3 {
+     background-color: #1579bc;
+ }
+
+ .banner-panel h6,
+ .banner-panel p {
+     color: #fff !important;
+ }
+
+ .panel--content:after {
+     background-color: #fff !important;
+ }
+
+ /* features */
+
+ .feature-left .feature-panel .feature--icon {
+     width: 80px;
+     height: 80px;
+     line-height: 70px;
+     background-color: #3498db;
+     text-align: center;
+     border-radius: 1px
+ }
+
+ .feature-left .feature-panel .feature--content {
+     padding-left: 110px;
+ }
+
+ .feature-panel .feature--content h3 {
+     padding-bottom: 18px;
+     margin-bottom: 16px;
+     position: relative
+ }
+
+ .feature-panel .feature--content h3:after {
+     content: "";
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 30px;
+     height: 2px;
+     background-color: #616161;
+ }

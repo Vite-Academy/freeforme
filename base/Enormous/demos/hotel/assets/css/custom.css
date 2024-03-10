@@ -1,0 +1,117 @@
+.page-title .title-11 {
+    padding: 150px 0 109px;
+}
+
+.bg-overlay-dark:before {
+    background-color: rgba(27, 26, 26, 0.45);
+}
+
+
+.heading .heading--subtitle {
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 36px;
+    text-transform: uppercase;
+}
+
+
+.heading .heading--title {
+    font-size: 75px;
+    margin-bottom: 35px;
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+
+.page-title .title--heading h1 {
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size: 105px;
+    font-weight: 400;
+    line-height: 1;
+
+}
+
+.slider .slide--headline {
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-weight: 400;
+}
+
+.slider .slide--subheadline {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.slide-overlay-dark .slotholder:after {
+    background-color: rgba(27, 26, 26, 0.45);
+}
+
+/* services */
+
+.service-panel {
+    background-color: #fff;
+    padding-bottom: 38px;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(40, 40, 40, 0.06);
+    box-shadow: 0px 2px 3px 0px rgba(40, 40, 40, 0.06);
+}
+
+.service-panel img {
+    margin-bottom: 34px;
+}
+
+.service-panel h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.service-panel p {
+    padding: 0 40px
+}
+
+.service-panel .divider--img {
+    margin-bottom: 9px;
+}
+
+.divider--img {
+    width: 46px;
+    height: 16px;
+    background: url(../images/background/shapes/divider-img.png) center no-repeat;
+    display: inline-block;
+}
+
+.owl-carousel .owl-item {
+    padding-bottom: 5px;
+}
+
+
+.portfolio-standard .portfolio-item {
+    margin-bottom: 30px;
+}
+
+.portfolio-standard .portfolio-item .portfolio--img {
+    margin-bottom: 0;
+}
+
+.portfolio-item .portfolio--hover .portfolio--action {
+    background-color: rgba(34, 34, 34, 0.9) !important;
+}
+
+/* footer */
+
+.footer--widget-recent .entry--content {
+    padding-left: 0;
+}
+
+.footer--widget-newsletter form {
+    margin-bottom: 30px;
+}
+
+.footer-social-icon a {
+    color: #bf9958
+}
+
+
+

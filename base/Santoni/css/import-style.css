@@ -1,0 +1,30 @@
+/* TABLE OF CONTENT
+ * ==================
+ *  BASE
+ *      - Vendors Stylesheet.
+ *      - Basic Theme Stylesheet (Layout, Content)
+ *  GENERAL
+ *      - Theme Settings (Spacing, Layout)
+ *  SINGLE PAGE
+ *      - Single Default
+ *      - Single Gallery
+ *  HEADER
+ *  FOOTER
+ *  404 Page
+ *  SIDEBAR
+ *      - Widgets
+ *  CUSTOM
+ *   - Font
+ *   - Color
+ **/
+
+@import url("vendors.css");
+@import url("style.css");
+@import url("santoni.css");
+@import url("single.css");
+@import url("gallery.css");
+@import url("header_footer.css");
+@import url("404.css");
+
+@import url("font.css");
+@import url("color.css");

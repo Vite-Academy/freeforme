@@ -1,0 +1,197 @@
+.dark-home {
+	.header-style-three {
+		background-color: #111215;
+		border-bottom: 1px solid #111215;
+	}
+	.header-style-three .main-navigation li a {
+		color: #fff;
+	}
+	.header-style-three .fd-book-btn a {
+		color: #fff;
+		&:after {
+			background-color: #fff;
+			height: 1px;
+		}
+	}
+	.slider-style-three .slider-layer-item.slider-type-one .slider-text-innerbox h1,
+	.special-offer-section-3 .special-offer-title h2,
+	.section-title h2{
+		color: #fff;
+	}
+	.slider-style-three .slider-layer-item.slider-type-one .slider-waterprint,
+	.slider-style-three .slider-layer-item.slider-type-three .slider-waterprint {
+		color: #181921;
+		span {
+			color: #181921;
+		}
+	}
+	.slider-style-three .slider-layer-item.slider-type-two .slider-text-innerbox .slider-right-text h1 {
+		color: #fff;
+		padding-bottom: 76px;
+	}
+	.book-table-section-3,
+	.special-offer-section-3,
+	.special-offer-section-3 .special-offer-content-3 .special-discoun-3:after {
+		background-color: #1c1d21;
+	}
+	.special-offer-section-3 .special-offer-content-3 {
+		background-color: #111215;
+	}
+	.special-offer-section-3 .special-offer-content-3 .package-slide-item h3 {
+		color: $base-color3;
+	}
+	.book-table-content-3 .book-table-info .book-table-info-text-social h3 {
+		color: #fff;
+	}
+	.book-table-content-3 .book-table-info .book-table-info-text-social .table-info-social:after {
+		background-color: #524a4a;
+	}
+	.special-offer-section-3 .special-offer-content-3 .special-package-content .package-slide-item p,
+	.special-offer-section-3 .special-offer-content-3 .package-slide-item .dec.qtybutton,
+	.special-offer-section-3 .special-offer-content-3 .package-slide-item .inc.qtybutton,
+	.special-offer-section-3 .special-offer-content-3 .offer-price-count h4,
+	.special-offer-section-3 .special-offer-content-3 .special-package-content .package-slide-item a {
+		color: #fff5e2;
+	}
+	.special-offer-section-3 .special-offer-content-3 .special-package-content .package-slide-item a:after {
+		background-color: #fff5e2;
+	}
+	.special-offer-section-3 .special-offer-content-3 .special-discoun-3:before {
+		background-image: url(../img/logo/shape8d.png);
+	}
+	.fv-food-section-3 .view-all-btn {
+		background-color: #16171b;
+		a {
+			color: $base-color3;
+		}
+	}
+	.about-section-3 {
+		background-color: #16171b;
+		margin-bottom: -80px;
+	}
+	.about-section-3 .about-content-3 .about-area-text .section-title h2 {
+		color: #fff5e2;
+	}
+	.about-section-3 .about-right-text .about-fun-fact {
+		background-color: #1c1d21;
+	}
+	.about-right-text .about-fun-fact .ab-fun-fact-item span {
+		color: #fff;
+	}
+	.foodige-menu-section-3 {
+		background-color: #111215;
+	}
+	.foodige-menu-section-3 .foodige-menu-tab {
+		box-shadow: none;
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+		background-color: #1c1d21;
+	}
+	.foodige-menu-section-3 .foodige-menu-tab {
+		padding-top: 180px;
+	}
+	.fv-food-section-3 .fv-food-item .fv-location-btn a {
+		&:hover {
+			color: $base-color3;
+			&:after {
+				background-color: $base-color3;
+			}
+		}
+	}
+	.fv-food-section-3 .fv-food-item .cart-plus-minus-box {
+		background-color: #10162c;
+	}
+	.foodige-menu-section-3 .foodige-menu-top-img {
+		top: 50px;
+	}
+	.fv-food-section-3 .fv-food-item .fv-food-img span {
+		background-color: #16171b;
+	}
+	.foodige-menu-section-3 .foodige-menu-img-text .foodige-menu-text h3,
+	.foodige-menu-section-2 .foodige-menu-img-text .foodige-menu-text h4,
+	.foodige-menu-section-3 .menu-pagination li,
+	.fv-food-section .fv-food-item .fv-food-text h3,
+	.testimonial-section-3 .testimonial-inner-box .testimonial-content-area .testimonial-text-2 h3 a {
+		color: #fff5e2;
+	}
+	.foodige-menu-section-2 .foodige-menu-img-text .foodige-menu-text h4:before {
+		background-color: #fff5e2;
+	}
+	.foodige-menu-section-3 .foodige-menu-tab .custom_tab_button:before {
+		background-color: #16171b;
+	}
+	.foodige-menu-section-2 .foodige-menu-img-text .foodige-menu-text p,
+	.testimonial-section-3 .testimonial-inner-box .testimonial-content-area .testimonial-text-2 p {
+		color: #c1c1c1;
+	}
+	.foodige-menu-section-3 .foodige-menu-img-text .foodige-menu-text .fd-order-btn a,
+	.fv-food-section-3 .fv-food-item .fv-location-btn a {
+		color: #b1b5d5;
+		&:after {
+			background-color: #b1b5d5;
+		}
+	}
+	.fv-food-section-3 {
+		background-color: #111215;
+	}
+	.fv-food-section .fv-food-slide-area .owl-nav .owl-next,
+	.fv-food-section .fv-food-slide-area .owl-nav .owl-prev {
+		background-color: #16171b;
+		&:hover {
+			background-color: $base-color3;
+		}
+	}
+	.testimonial-section-3 {
+		background-color: #16171b;
+	}
+	.blog-section-3 {
+		background-color: #111215;
+	}
+	.blog-section-3 .blog-content-3 .blog-img-text-3 .blog-text span:after {
+		background-color: $base-color3;
+	}
+	.blog-section-3 .blog-content-3 .blog-img-text-3 .blog-text .blog-hover-text {
+		background-color: #16171b;
+	}
+	.footer-section-3 {
+		background-color: #16171b;
+	}
+	.footer-section-3 .footer-copyright-3 {
+		background-color: #111215;
+	}
+}
+.dark-2 {
+	.about-section,
+	.special-package-section,
+	.special-package-section:before, .special-package-section:after,
+	.testimonial-section,
+	.testimonial-inner-item .testimonial-img-area:after,
+	.popular-dishes-section,
+	.dishes-img-text .p-dish-price h4,
+	.blog-section {
+		background-color: #1c1d21;
+	}
+	.about-section:before {
+		background-color: #0c0c0b;
+	}
+	.about-section:after {
+		opacity: .05;
+	}
+	.special-package-section .package-side-icon i {
+		color: #24242b;
+	}
+	.foodige-menu-section,
+	.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active,
+	.dishes-img-text .dishes-popular-text,
+	.cart-plus-minus-box,
+	.blog-img-text .blog-text {
+		background-color: #16171b;
+	}
+	.section-title h2,
+	.foodige-menu-tab .custom_tab_button li span,
+	.testimonial-inner-item .testimonial-inner-text h2,
+	.dishes-img-text .dishes-popular-text h3,
+	.blog-img-text .blog-text h3 a {
+		color: #fff;
+	}
+}

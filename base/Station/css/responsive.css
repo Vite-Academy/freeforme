@@ -1,0 +1,228 @@
+/* Medium Layout: 1600px. */
+@media only screen and (min-width: 1601px){ 
+
+}
+
+
+
+
+
+/* Medium Layout: 1600px. */
+@media only screen and (min-width: 1400px) and (max-width: 1600px){ 
+
+ 
+}
+
+
+
+
+/* Medium Layout: 1400px. */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) { 
+
+}
+
+
+
+
+/* Medium Layout: 1200px. */
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+/*team section*/
+.member-info h4 {
+  font-size: 22px;
+}
+/*counter section*/
+.counter_name{
+	font-size:22px;
+}
+
+}
+
+
+
+
+
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 990px) { 
+/*team section*/
+.member-info{
+	margin-bottom:30px;
+}
+.member-info h4 {
+  font-size: 22px;
+}
+/* pricing */
+.price-box .btn {
+  padding: 10px 15px;
+}
+.price-box.pl30{
+	padding-left:15px;
+}
+.price-box.pr30{
+	padding-right:15px;
+}
+.price-box h3{
+	font-size:25px;
+}
+/* each client */
+
+.single-client img{
+	padding:10px 15px;
+}
+
+ 
+}
+
+
+
+
+
+
+
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+	
+/* global */
+body, p{
+	font-size:14px;
+}
+.section-title h2 {
+  font-size: 30px;
+}
+h2{
+	font-size:25px;
+}
+h3{
+	font-size:22px
+}
+	
+/*Navbar*/
+.header {
+    border-bottom: none;
+}
+.navbar-collapse{
+	background:#000000;
+}
+/* Our mission section */
+#our-mission img{
+	margin-bottom:20px;
+}
+#our-mission .pr40{
+	padding-right:15px;
+}
+
+/* skills section */
+.progress.mb0{
+	margin-bottom:45px
+}
+/*team section*/
+.member-info{
+	margin-bottom:30px;
+}
+.member-info h4 {
+  font-size: 22px;
+}
+
+/* portfolio */
+.portfolio-categories li{
+	margin-right:15px;
+	margin-bottom:10px;
+}
+.portfolio-categories.mb45 {
+  margin-bottom: 30px;
+}
+.project-terms{
+	margin-bottom:15px;
+}
+.project-info-box{
+	margin-bottom:15px;
+}
+
+/* pricing section */
+.price-box{
+	margin-bottom:30px;
+}
+
+/* counter section */
+.counter_box{
+	margin-bottom:20px;
+}
+
+/*blog section*/
+.article-box{
+	margin-bottom:25px;
+}
+.article-box .pr30{
+	padding-right:15px;
+}
+.article-box .pl30{
+	padding-left:15px;
+}
+/* testimonials */
+.client-info.mt35 {
+  margin-top: 10px;
+}
+/* each client */
+.single-client{
+	margin-bottom:15px;
+}
+.single-client img{
+	padding:10px 15px;
+}
+/* Contact section */
+.contact-info-box{
+	margin-bottom:20px;
+}
+.st-form.pl30{
+	padding-left:15px;
+}
+.contact-info .mt45{
+	margin-top:20px;
+}
+/* Footer */
+.footer-social li a {
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 30px;
+}
+.footer-bottom{
+	text-align:center;
+}
+.footer-menu{
+	margin-top:10px;
+	text-align:center;
+}
+.footer-menu li a{
+	margin-left:0px;
+	margin-right:5px;
+}
+.page-hero h1{
+	font-size:32px;
+}
+
+}
+
+
+
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+
+
+/* =============================================================================== 
+							404 Page Start
+================================================================================== */
+
+
+/* =============================================================================== 
+							404 Page End
+================================================================================== */
+	
+}

@@ -1,0 +1,42 @@
+.post__title,
+.block-heading,
+.widget__title, .entry-title,
+.social-share-label,.single-next-article-box .next-article-popup-heading,
+.comments-title,
+.comment-author .fn,
+.comment-author .url,
+.atbs-main-col .author-box .author-name a,
+.author-no-sidebar.author-box .author-name a {
+    font-family: 'Montserrat', sans-serif;
+}
+.navigation--main>li>a, .navigation--offcanvas>li>a,
+.site-footer .navigation li a,
+.module-contact .contact-heading h1 {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.copy-right,
+.post__cat, a.post__cat,
+.entry-cat, a.entry-cat,
+.post__meta, .block-heading__subtitle,
+.post__excerpt, .entry-excerpt, .entry-tags ul>li>a,
+.comments-count, .view-count,
+.author-box .author-name a,
+.author-box .author-bio,
+.entry-teaser,.entry-author a.entry-author__name, .entry-meta,
+.comment-content p,
+input[type="text"], 
+input[type="email"], 
+input[type="url"], 
+input[type="password"], 
+input[type="search"], 
+input[type="tel"], 
+input[type="number"], 
+textarea, 
+textarea.form-control, 
+select, select.form-control,
+.module-404 h3,
+.module-contact .contactform-submit  {
+    font-family: 'Roboto', serif;
+}

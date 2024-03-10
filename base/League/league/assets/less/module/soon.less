@@ -1,0 +1,128 @@
+/*------------------------------------*\
+    #SOON
+\*------------------------------------*/
+
+.page-soon {
+	padding-top: 140px;
+	padding-bottom: 140px;
+}
+
+.page-soon h3 {
+	color: @color-heading;
+	font-size: 85px;
+	font-weight: 700;
+	line-height: 1.1;
+	margin-bottom: 38px;
+}
+
+.page-soon p {
+	color: #a5a5a5;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 23px;
+	margin-bottom: 70px;
+}
+
+.count-down {
+	padding-top: 110px;
+	padding-bottom: 110px;
+}
+/* jQuery Countdown styles 2.0.0. */
+
+.is-countdown {}
+
+.countdown-rtl {
+	direction: rtl;
+}
+
+.countdown-section {
+	display: block;
+	float: left;
+	text-align: center;
+	position: relative;
+	height: auto;
+	margin-right: 26px;
+	width: 18%;
+	padding: 0 23px;
+}
+
+.countdown-section:last-of-type {
+	margin-right: 0;
+}
+
+.countdown-amount {
+	font-family: @font-thirdy;
+	color: @color-white;
+	font-size: 80px;
+	font-weight: 700;
+	line-height: 1;
+	margin-bottom: 0;
+}
+
+.countdown-period {
+	display: block;
+	color: #f4f4f4;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+.countdown-boxed .countdown-section {
+	border-radius: 2px;
+	background-color: rgba(255, 255, 255, 0.15);
+	padding: 23px;
+}
+
+.countdown-dark .countdown-amount {
+	color: @color-heading;
+}
+
+.countdown-dark .countdown-period {
+	color: #616161;
+}
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+	.countdown-section {
+		width: 40%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.page-soon h3 {
+		font-size: 45px;
+		margin-top: 100px;
+	}
+}
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+	.countdown-section {
+		width: 16%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.countdown-amount {
+		font-size: 50px;
+	}
+
+	.page-soon h3 {
+		font-size: 45px;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+	.countdown-section {
+		width: 17%;
+	}
+
+	.countdown-amount {
+		font-size: 60px;
+	}
+}
+@media only screen and (max-width : 991px) {
+	.page-soon {
+		padding-top: 100px !important;
+		padding-bottom: 100px !important;
+	}
+}

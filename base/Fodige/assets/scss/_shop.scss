@@ -1,0 +1,99 @@
+.shop-page-section {
+	padding: 120px 0px;
+	.shop-page-top-area {
+		border-bottom: 1px solid #c1c1c1;
+		padding-bottom: 20px;
+		margin-bottom: 30px;
+		select {
+			padding: 5px 15px;
+		}
+	}
+	.shop-food-item {
+		margin-bottom: 30px;
+		.shop-food-img {
+			z-index: 1;
+			&:after {
+				top: 0;
+				right: 0;
+				left: auto;
+				content: '';
+				z-index: 0;
+				width: 0%;
+				opacity: .7;
+				height: 100%;
+				position: absolute;
+				background-color:  #121850;
+				transition: .5s all ease-in-out;
+			}
+		}
+		.add-order {
+			top: 40%;
+			left: 0;
+			right: 0;
+			z-index: 2;
+			opacity: 0;
+			visibility: hidden;
+			position: absolute;
+			transform: translateY(-50%);
+			transition: .5s all ease-in-out;
+			transition-delay: .3s;
+			a {
+				width: 130px;
+				color: #fff;
+				height: 40px;
+				display: block;
+				margin: 0 auto;
+				border-radius: 2px;
+				line-height: 40px;
+				text-align: center;
+				border: 1px solid $base-color3;
+			}
+		}
+		.shop-food-text {
+			margin-top: 20px;
+			h3 {
+				color: #121850;
+				font-size: 22px;
+				font-weight: 700;
+				padding-bottom: 10px;
+			}
+			.shop-food-price {
+				width: 100%;
+				display: inline-block;
+				h3 {
+					float: left;
+					color: #121850;
+					font-size: 20px;
+					font-weight: 700;
+				}
+				span {
+					float: right;
+					font-size: 16px;
+					font-weight: 700;
+					color: $base-color3;
+					font-family: $heading;
+				}
+			}
+		}
+		&:hover {
+			.shop-food-img {
+				&:after {
+					left: 0;
+					right: auto;
+					width: 100%;
+				}
+			}
+			.add-order {
+				top: 50%;
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+	}
+	.shop-sidebar {
+		padding-left: 30px;
+		.sidebar-widget .popular-post-widget li h3 {
+			font-size: 18px;
+		}
+	}
+}

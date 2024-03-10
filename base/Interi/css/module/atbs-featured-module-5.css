@@ -1,0 +1,167 @@
+/*************************
+*
+*  Featured Module 5
+*
+*************************/
+.atbs-featured-module-5 .section-main {
+    min-height: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.atbs-featured-module-5 .section-main__inner {
+    width: 36%;
+}
+.statistics-column {
+    padding: 70px 40px 70px 40px;
+    background-color: var(--color-secondary);
+}
+.statistics-column:nth-child(1) {
+    background-color: var(--color-primary);
+}
+.statistics-column:nth-child(1) .statistics-number,
+.statistics-column:nth-child(1) .statistics-label {
+    color: var(--color-white-contrast-100);
+}
+.statistics-number {
+    font-size: 3.21428571429rem;
+    line-height: 1.2;
+    font-weight: 800;
+    margin-bottom: 1px;
+    color: var(--color-primary);
+}
+.statistics-label {
+    font-size: 1.07142857143rem;
+    line-height: 1.5;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--color-front);
+}
+
+.atbs-featured-module-5 .section-sub .column-left {
+    width: 36%;
+    background-color: #242328;
+    padding: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.atbs-featured-module-5 .section-sub .column-right {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.atbs-featured-module-5 .heading__name {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 10px;
+}
+.atbs-featured-module-5 .paragraph-text {
+    color: var(--color-front);
+    max-width: 400px;
+    margin-top: 0;
+}
+
+@media (max-width: 1545px) {
+    .atbs-featured-module-5 .section-main__inner,
+    .atbs-featured-module-5 .section-sub .column-left {
+        width: 45%;
+    }
+}
+@media (max-width: 1366px) {
+    .atbs-featured-module-5 .section-main__inner,
+    .atbs-featured-module-5 .section-sub .column-left {
+        width: 48%;
+    }
+}
+@media (max-width: 1199px) {
+    .atbs-featured-module-5 .section-main__inner,
+    .atbs-featured-module-5 .section-sub .column-left {
+        width: 50%;
+    }
+    .atbs-featured-module-5 .section-sub .column-right > * {
+        width: 100%;
+    }
+    .atbs-featured-module-5 .section-main {
+        min-height: 540px;
+    }
+    .atbs-featured-module-5 .section-sub .img-field {
+        height: 250px;
+    }
+    .statistics-column {
+        padding: 60px 40px 60px 40px;
+    }
+
+}
+@media (max-width: 991px) {
+    .atbs-featured-module-5 .section-main__inner,
+    .atbs-featured-module-5 .section-sub .column-left {
+        width: 60%;
+    }
+    .atbs-featured-module-5 .section-main {
+        min-height: 500px;
+    }
+    .statistics-column {
+        padding: 50px 30px 50px 30px;
+    }
+    .statistics-number {
+        font-size: 2.85714285714rem;
+    }
+    .atbs-featured-module-5 .section-sub .img-field {
+        height: 220px;
+    }
+
+    .atbs-featured-module-5 .heading__name {
+        font-size: 2.57142857143rem;
+    }
+
+    .atbs-featured-module-5 .section-sub .column-left {
+        padding: 40px 30px;
+    }
+}
+@media (max-width: 767px) {
+    .atbs-featured-module-5 .heading__name {
+        font-size: 2.28571428571rem;
+    }
+    .atbs-featured-module-5 .section-main__inner {
+        width: 80%;
+    }
+}
+@media (max-width: 575px) {
+    .atbs-featured-module-5 .section-main__inner,
+    .atbs-featured-module-5 .section-sub .column-left {
+        width: 100%;
+    }
+    .atbs-featured-module-5 .section-sub .column-right {
+        width: 100%;
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+    }
+}
+@media (max-width: 480px) {
+    .statistics-column {
+        width: 100%;
+    }
+}

@@ -1,0 +1,244 @@
+ 
+.heading .heading--title {
+     font-family: 'Gochi Hand', cursive;
+     font-size: 45px;
+     font-weight: 400;
+     line-height: 1;
+     margin-bottom: 11px;
+
+ }
+
+ .heading .heading--desc + .divider--img {
+     margin-top: 14px;
+ }
+
+ .page-title .title-5 .title--heading {
+     margin-bottom: 9px;
+ }
+
+ .page-title .title--heading h1 {
+     font-family: 'Gochi Hand', cursive;
+     font-size: 75px;
+     font-weight: 400;
+     line-height: 1;
+ }
+
+ .divider--img {
+     width: 99px;
+     height: 12px;
+     display: inline-block;
+     background: url(../images/background/shapes/divider-img.png) center;
+
+ }
+
+ .divider--img2 {
+     width: 99px;
+     height: 12px;
+     display: inline-block;
+     background: url(../images/background/shapes/divider-img2.png) center;
+
+ }
+
+ .divider--shape-1up {
+     width: 100%;
+     height: 10px;
+     background: url(../images/background/shapes/shape-1up.png) center repeat-x;
+     position: absolute;
+     top: 0;
+     left: 0;
+ }
+
+ .divider--shape-2up {
+     width: 100%;
+     height: 10px;
+     background: url(../images/background/shapes/shape-2up.png) center repeat-x;
+     position: absolute;
+     top: 0;
+     left: 0;
+ }
+
+ .divider--shape-1down {
+     width: 100%;
+     height: 10px;
+     background: url(../images/background/shapes/shape-1down.png) center repeat-x;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+ }
+
+ .divider--shape-2down {
+     width: 100%;
+     height: 10px;
+     background: url(../images/background/shapes/shape-2down.png) center repeat-x;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+ }
+
+ .slide-overlay-dark1:before {
+     background-color: rgba(27, 26, 26, 0.55)
+ }
+
+ .bg-overlay-dark2:before {
+     background-color: rgba(27, 26, 26, 0.25)
+ }
+
+ .bg-overlay-dark4:before {
+     background-color: rgba(27, 26, 26, 0.55)
+ }
+
+ .body-bordered .wrapper {
+     background-color: #e1be64;
+     padding: 20px;
+ }
+
+ .counter-2 .count-box .divider--line:after {
+     background-color: #dbdbdb !important;
+ }
+
+ /* header */
+
+ .module-contact {
+     margin-right: 20px;
+ }
+.module-contact .social--icons a:first-of-type {
+    margin-left: 0 !important;
+}
+ /* hero slider */
+
+ .slider .slide--headline {
+      font-weight: 400;
+     font-family: 'Gochi Hand', cursive;
+  }
+
+ .hermes .tp-bullet {
+     display: none !important;
+ }
+
+ /* counters */
+
+ .counter .count-box .counting {
+     font-family: 'Gochi Hand', cursive;
+    font-size: 50px;
+     font-weight: 400;
+ }
+
+ /* cta */
+
+ .cta h3 {
+     font-family: 'Gochi Hand', cursive;
+     font-size: 65px;
+     line-height: 1;
+     font-weight: 400;
+ }
+
+ /* services */
+
+ .service-panel img {
+     margin-bottom: 26px;
+ }
+
+ .service-panel h3 {
+     font-family: 'Gochi Hand', cursive;
+     font-size: 26px;
+     font-weight: 400;
+     margin-bottom: 18px;
+ }
+
+ /* menu */
+
+ .menu .dish-panel {
+     margin-bottom: 20px;
+     overflow: hidden;
+     position: relative;
+     padding-bottom: 18px;
+     border-bottom: 1px dashed rgba(156, 156, 156, 0.4);
+ }
+
+ .menu .dish-panel .dish--title {
+     font-family: 'Gochi Hand', cursive;
+     font-size: 21px;
+     font-weight: 400;
+     margin-bottom: 6px;
+     color: #282828
+ }
+
+ .menu .dish-panel .dish--price {
+     font-size: 15px;
+     font-weight: 800;
+     position: absolute;
+     top: 0;
+     right: 0;
+     margin-bottom: 0;
+     color: #cda964
+ }
+
+.dish--desc{
+    margin-bottom: 0;
+}
+
+ /* portfolio */
+
+ .portfolio-item .portfolio--img img {
+     padding: 1px;
+ }
+
+ /* cta */
+
+ .cta {
+     padding: 251px 0;
+ }
+
+ .cta h3 {
+     margin-bottom: 0;
+ }
+
+ /* banner */
+
+ .banner {
+     padding: 297px 0;
+ }
+
+ .banner h3 {
+     font-family: 'Gochi Hand', cursive;
+     font-weight: 400;
+     color: #fff;
+     font-size: 65px;
+     line-height: 1;
+     margin-bottom: 0;
+ }
+
+ /* blog */
+
+ .blog-standard .blog-entry .entry--title h4 {
+     font-family: 'Gochi Hand', cursive;
+     font-size: 30px;
+     font-weight: 400;
+     margin-bottom: 6px;
+ }
+
+ .blog-standard .blog-entry:hover .entry--more a {
+     color: #fff
+ }
+
+ /* footer */
+
+ .footer {
+     position: relative;
+     background-color: transparent;
+ }
+
+
+ .footer .footer--widget-reservation ul li {
+     font-size: 13px;
+     line-height: 40px;
+     border-bottom: 1px dashed rgba(112, 99, 92, 0.5)
+ }
+
+ .footer .footer--widget-reservation ul li:last-of-type {
+     border: none
+ }
+
+ .footer .footer--widget-reservation ul li .time {
+     float: right;
+ }

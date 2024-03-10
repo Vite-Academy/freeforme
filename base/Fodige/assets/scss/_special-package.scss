@@ -1,0 +1,371 @@
+.special-package-section {
+	background-color: #121850;
+	overflow-x: hidden;
+	overflow: visible;
+	&:before,
+	&:after {
+		content: '';
+		width: 50px;
+		height: 50px;
+		position: absolute;
+		left: 0;
+		z-index: -1;
+		top: -40px;
+		background-color: #121850;
+	}
+	&:after {
+		left: auto;
+		right: 0;
+	}
+	.package-side-img {
+		position: absolute;
+		bottom: 0;
+		left: -130px;
+	}
+	.package-side-icon {
+		top: 60px;
+		left: 0;
+		line-height: 1;
+		position: absolute;
+		i {
+			color: #181f60;
+			font-size: 360px;
+		}
+	}
+}
+.special-package-content {
+	.section-title {
+		padding-bottom: 45px;
+		h2 {
+			color: #fff;
+		}
+	}
+	.special-package-slider {
+		.owl-stage-outer {
+			padding: 160px 0 150px 0px;
+		}
+		.owl-nav { 
+			@extend%spcial-slider-nav;
+			left: 50%;
+			bottom: 80px;	
+		}
+	}
+	.package-slide-item {
+		@extend%special-slider-content;
+	}
+}
+.special-package-img1,
+.special-package-img2 {
+	bottom: 95px;
+	right: 200px;
+	position: absolute;
+}
+.special-package-img2 {
+	right: 0;
+	top: auto;
+	bottom: -160px;
+}
+.package-discount-tag {
+	right: 0;
+	top: -160px;
+	color: #fff;
+	width: 200px;
+	z-index: 1;
+	height: 210px;
+	padding-top: 50px;
+	position: absolute;
+	background-color: $base-color;
+	&:before {
+		left: 0;
+		right: 0;
+		top: -20px;
+		z-index: -1;
+		color: #fdc977;
+		content: '\f105';
+		font-size: 135px;
+		position: absolute;
+		font-family: Flaticon;
+	}
+	h4 {
+		font-size: 50px;
+		font-weight: 700;
+	}
+	span {
+		font-size: 18px;
+		font-weight: 700;
+		font-family: $heading;
+	}
+}
+.special-offer-section-2 {
+	padding: 65px 0px 215px;
+	.fd-shape-img {
+		bottom: 0;
+	}
+	.section-waterprint { 
+		h1 {
+			z-index: 5;
+			top: 40px;
+			font-size: 120px;
+			text-transform: uppercase;
+			-webkit-text-stroke-color: #f7dadc9e;
+		}
+	}
+	.offer-bottom-img {
+		position: absolute;
+		bottom: -180px;
+		right: -50px;
+	}
+	.offer-watermark-icon {
+		top: 0;
+		right: 0;
+		line-height: 1;
+		position: absolute;
+		i {
+			color: #fff7f7;
+			font-size: 280px;
+		}
+	}
+}
+.special-offer-content-2 {
+	.special-offer-left-img {
+		z-index: 1;
+		width: 50%;
+		float: left;
+		padding-bottom: 30px;
+	}
+	.offer-slider-item-text {
+		width: 50%;
+		float: right;
+		padding-left: 120px;
+		.section-title {
+			padding-bottom: 60px;
+		}
+	}
+	.testimonial-review {
+		@extend%review-number;
+		bottom: 0;
+		background-color: #eb5e66;
+		span {
+			color: #fff;
+			font-weight: 700;
+			font-family: $heading;
+			&:nth-child(1) {
+				font-size: 50px;
+			}
+			&:nth-child(2) {
+				font-size: 18px;
+			}
+		}
+		&:after {
+			background-image: url(../img/logo/shape2.png);
+		}
+	}
+	.special-package-slider-2 {
+		.owl-nav { 
+			top: 50%;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+			text-align: center;
+			@extend%spcial-slider-nav;
+			.owl-next,
+			.owl-prev {
+				background-color: #2d203f;
+				color: $base-color2;
+				margin: 0;
+				color: #fff;
+				border: 1px solid #2d203f;
+				&:hover { 
+					color: $base-color2;
+					border: 1px solid #ffeeef;
+					background-color: #ffeeef;
+				}
+			}
+		}
+	}
+	.special-offer-right-text {
+		z-index: 3;
+		position: relative;
+		.special-package-slider-2 {
+			margin-top: 40px;
+		}
+		.package-slide-item {
+			@extend%special-slider-content;
+			h3 {
+				color: $base-color2;
+				padding-bottom: 30px;
+			}
+			h4 {
+				font-size: 30px;
+				font-weight: 700;
+				color: $base-color2;
+				padding-bottom: 25px;
+			}
+			p {
+				color: $body-color;
+				padding-bottom: 25px;
+			}
+			a {
+				border: none;
+				width: inherit;
+				height: inherit;
+				text-align: left;
+				line-height: inherit;
+				@extend%btn-underline;
+				&:after {
+					width: 90px;
+					background-color: $body-color;
+				}
+			}
+		}
+	}
+}
+
+.special-offer-section-3 {
+	padding-top: 15px;
+	.special-offer-title {
+		z-index: 5;
+		margin: 0 auto;
+		max-width: 420px;
+		position: relative;
+		h2 {
+			font-size: 50px;
+			font-weight: 700;
+			color: #272656;
+			span {
+				color: $base-color3;
+			}
+		}
+	}
+	.special-offer-content-3 {
+		z-index: 1;
+		margin-top: 90px;
+		background-color: #fff8ec;
+		.owl-stage-outer {
+			padding: 180px 0px 30px;
+		}
+		.special-discoun-3 {
+			left: 0;
+			right: 0;
+			z-index: 3;
+			text-align: center;
+			position: absolute;
+			h3 {
+				top: 20px;
+				z-index: 3;
+				font-size: 50px;
+				font-weight: 700;
+				position: relative;
+				color: $base-color2;
+				span {
+					display: block;
+					font-size: 18px;
+				}
+			}
+			&:before {
+				top: 0;
+				left: 0;
+				right: 0;
+				z-index: 1;
+				content: '';
+				width: 145px;
+				height: 145px;
+				margin: 0 auto;
+				position: absolute;
+				background-repeat: no-repeat;
+				background-image: url(../img/logo/shape8.png);
+			}
+			&:after {
+				left: 0;
+				right: 0;
+				content: '';
+				top: -455px;
+				width: 600px;
+				height: 600px;
+				margin: 0 auto;
+				position: absolute;
+				border-radius: 100%;
+				background-color: #fff;
+			}
+		}
+		.special-package-content .package-slide-item p {
+			color: #6e6e6e;
+		}
+		.package-slide-item {
+			.dec.qtybutton, .inc.qtybutton {
+				font-size: 30px;
+				line-height: 1.1;
+				color: #272656;
+			}
+			h3 {
+				padding-bottom: 30px;
+			}
+			p {
+				padding-bottom: 45px;
+			}
+		}
+		.offer-price-count {
+			margin-bottom: 68px;
+			.dish-plus-minus {
+				margin-right: 60px;
+			}
+			.cart-plus-minus-box {
+				width: 35px;
+				height: 35px;
+				color: #272656;
+				font-weight: 700;
+				background-color: $base-color3;
+				border: 2px solid $base-color3; 
+			}
+			h4 {
+				color: #272656;
+				font-size: 30px;
+				font-weight: 700;
+			}
+		}
+		.special-package-content .package-slide-item a {
+			border: none;
+			height: inherit;
+			width: inherit;
+			line-height: inherit;
+			display: inline-block;
+			background-color: inherit;
+			@extend%btn-underline;
+			&:after {
+				background-color: #272656;
+			}
+		}
+		.special-package-content .special-package-slider .owl-nav {
+			right: 0;
+			left: -145px;
+			bottom: -10px;
+			position: relative;
+			.owl-prev,
+			.owl-next {
+				color: #fff;
+				border:  none;
+				display: block;
+				background-color: #2d203f;
+				position: relative;
+				&:hover {
+					color: $base-color3;
+				}
+				&:after {
+					content: '';
+					top: 0;
+					left: 100%;
+					height: 100%;
+					width: 100%;
+					background-color: $base-color3;
+					position: absolute;
+				}
+			}
+			.owl-next {
+				margin-left: 45px;
+				&:after {
+					left: -100%;
+				}
+			}
+		}
+	}
+}

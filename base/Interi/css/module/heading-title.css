@@ -1,0 +1,184 @@
+/*************************
+*
+*  Heading Title
+*
+*************************/
+.block-heading_style-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.block-heading_style-1.block-heading--center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.block-heading_style-1 .block-heading__title {
+    font-size: 4.14285714286rem;
+    font-weight: 800;
+    line-height: 1.2;
+    width: 100%;
+    position: relative;
+    text-transform: none;
+    color: var(--color-primary);
+    letter-spacing: 0;
+    z-index: 1;
+}
+.block-heading_style-1 .block-heading__title:before {
+    content: attr(data-text-below);
+    opacity: 0.1;
+    -webkit-text-stroke: 1px var(--color-title);
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    left: -5px;
+    bottom: -15px;
+    font-size: 150px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    z-index: -1;
+    white-space: nowrap;
+}
+
+.block-heading.block-heading_style-2 {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.block-heading_style-2 .block-heading__title {
+    font-size: 4.14285714286rem;
+    font-weight: 800;
+    line-height: 1.2;
+    position: relative;
+    text-transform: none;
+    color: var(--color-primary);
+    letter-spacing: 0;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    max-width: 45%;
+}
+.block-heading_style-2 .block-heading__subtitle {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin-left: 115px;
+    max-width: 380px;
+    margin-top: 0;
+}
+
+.block-heading__label {
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--color-front);
+}
+@media (min-width: 1200px) {
+    .block-heading_style-1.block-heading_style-1-small {
+        font-size: 2.28571428571rem;
+    }
+    .block-heading_style-1.block-heading_style-1-small .block-heading__title:before {
+        font-size: 100px;
+        left: 0;
+        bottom: -8px;
+    }
+}
+@media (max-width: 1199px) {
+    .block-heading_style-2 .block-heading__title,
+    .block-heading_style-1 .block-heading__title {
+        font-size: 3.5rem;
+    }
+    .block-heading_style-1 .block-heading__title:after,
+    .block-heading_style-1 .block-heading__title:before {
+        margin-right: 10px;
+        margin-left: 0;
+    }
+
+    .block-heading_style-1 .block-heading__title:after {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    .block-heading_style-1 .block-heading__title:before {
+        font-size: 120px;
+        left: -5px;
+        bottom: -10px;
+    }
+}
+@media (max-width: 991px) {
+    .block-heading_style-2 .block-heading__title,
+    .block-heading_style-1 .block-heading__title {
+        font-size: 3rem;
+        line-height: 1.2;
+    }
+    .block-heading--center .block-heading__subtitle {
+        font-size: 1.1428rem;
+    }
+
+    .block-heading_style-1 .block-heading__title:before {
+        font-size: 100px;
+    }
+    .block-heading_style-2 .block-heading__subtitle {
+        margin-left: 50px;
+    }
+}
+@media (max-width: 767px) {
+    .block-heading_style-2 .block-heading__title,
+    .block-heading_style-1 .block-heading__title {
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+
+    .block-heading_style-1 .block-heading__title:before {
+        font-size: 70px;
+        bottom: -8px;
+        left: 0;
+    }
+}
+@media (max-width: 575px) {
+    .block-heading_style-2 .block-heading__title,
+    .block-heading_style-1 .block-heading__title {
+        font-size: 2.2rem;
+        line-height: 1.2;
+    }
+
+    .block-heading_style-1 .block-heading__title:before {
+        font-size: 60px;
+        bottom: -4px;
+        left: 0;
+    }
+    .block-heading_style-2 .block-heading__title {
+        max-width: 100%;
+    }
+    .block-heading_style-2 .block-heading__subtitle {
+        width: 100%;
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+        margin-left: 0;
+        margin-top: 5px;
+        max-width: 420px;
+    }
+}
+@media (max-width: 380px) {
+    .block-heading_style-1 .block-heading__title:before {
+        font-size: 55px;
+        bottom: -4px;
+        left: 0;
+    }
+}

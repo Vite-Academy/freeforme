@@ -1,0 +1,99 @@
+
+.atbs-main-col .author-box,
+.author-no-sidebar.author-box {
+    max-width: 100%;
+    margin-top: 0;
+    padding: 50px;
+    margin-bottom: 50px;
+    border: 1px solid var(--color-border);
+}
+.atbs-main-col .author-box .author-info,
+.author-no-sidebar.author-box .author-info {
+    margin-top: 10px;
+}
+.atbs-main-col .author-box .author-name a,
+.author-no-sidebar.author-box .author-name a {
+    text-decoration: none;
+}
+
+/* 404 */
+.module-404 {
+    margin-top: 70px;
+}
+.module-404 img {
+    height: 450px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.module-404 h3 {
+    max-width: 750px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.4;
+    font-weight: 400;
+}
+.module-404 h3 a {
+    color: var(--color-primary);
+}
+/* contact */
+.module-contact iframe {
+    width: 100%;
+    height: 400px;
+}
+.module-contact .contact-heading {
+    margin-bottom: 40px;
+}
+.module-contact .contact-heading h1 {
+    font-size: 24px;
+    line-height: 1.4;
+    font-weight: 700;
+    color: #222222;
+    text-transform:uppercase;
+    margin-bottom: 15px;
+}
+.module-contact .contact-heading .contact-description {
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 400;
+    color: rgba(0, 0, 0, 0.6);
+}
+.module-contact .contactform-submit {
+    margin-top: 40px;
+    background-color: var(--color-primary);
+    color: #fff;
+    padding: 14px 30px;
+    border-radius: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: .5px;
+}
+@media (max-width:767px) {
+    .module-contact .section-main,
+    .module-contact .section-sub {
+        width: 100%;
+    }
+}
+@media (max-width:991px) {
+    .module-404 img {
+        height: 400px;
+    }
+}
+@media (max-width:767px) {
+    .module-404 img {
+        height: 350px;
+    }
+}
+@media (max-width:575px) {
+    .atbs-main-col .author-box,
+    .author-no-sidebar.author-box {
+        max-width: 100%;
+        margin-top: 0;
+        padding: 25px;
+        margin-bottom: 40px;
+    }
+}

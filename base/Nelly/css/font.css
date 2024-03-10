@@ -1,0 +1,66 @@
+input[type="button"]:not(.btn),
+input[type="reset"]:not(.btn),
+input[type="submit"]:not(.btn),
+.post-meta , 
+.footer-bottom-copyright ,
+.heading__title ,
+.atbs-tabs,
+.author__name,
+.post-number,
+.about-bio,
+p,
+label,
+.comment-reply-title,
+span,
+.entry-author,
+.entry-author p,
+.post-subtitle,
+.post__meta, 
+.entry-meta,
+a.entry-author__name,
+.author-name span,
+.error-page p,
+.subscriber-title,
+.atbs-pagination__item,
+.category-tile__name ,
+.category-tile__description,
+.about__text time,
+.comments-title,
+.single-block-top  .author__name,
+a.post__cat, .post__cat,
+small,
+.post__cat.cat-style-2,
+.post-date time,
+.author-box .author-bio,
+.button__readmore,
+.itemnumber-dot,
+.atbs-pagination .atbs-pagination__item,
+.post__excerpt,
+.navigation--main > li > a,
+.navigation--main .sub-menu a,
+.atbs-contact-block .contact-form-submit {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* ============================================================ 
+## fonts - title
+==============================================================*/
+h3,
+h4,
+.author-name,
+.nextBtn,
+.widget-about-me .author__name,
+.block-heading__title,
+.readmore__text,
+.post-date span,
+.atbs-404-block h1,
+.widget__title-text,
+.category-tile,
+.follow-name,
+.author-box .author-name a,
+.post__title,
+.atbs-contact-block .contact-heading h1 {
+    font-family: 'Raleway', sans-serif;
+}
+

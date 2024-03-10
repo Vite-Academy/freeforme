@@ -1,0 +1,109 @@
+/*************************
+*
+*  404 Page
+*
+*************************/
+.module-404 {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    margin-bottom: -100px !important;
+}
+.module-404:before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.module-404 .atbs-block__inner {
+    position: relative;
+    z-index: 2;
+}
+
+.module-404 h1 {
+    margin:  0 auto 0 auto;
+    color: var(--color-white-contrast-100);
+    font-weight: 700;
+    font-size: 220px;
+    line-height: 1;
+}
+.module-404 p {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.2;
+    margin:  0 auto 0 auto;
+    max-width: 780px;
+    color: var(--color-white-contrast-70);
+}
+.module-404 a {
+    color: #fff;
+    text-decoration: none;
+    background-color: var(--color-primary);
+    padding: 12px 23px 12px 23px;
+    display: block;
+    text-align: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 1.07142857143rem;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin: 40px auto 0 auto;
+    text-transform: uppercase;
+}
+@media (max-width: 991px) {
+    .module-404 h1 {
+        font-size: 15.4285rem;
+    }
+    .module-404 p {
+        font-size: 1.6571rem;
+        line-height: 1.4;
+    }
+}
+@media (max-width: 767px) {
+    .module-404 h1 {
+        font-size: 12.4285rem;
+    }
+    .module-404 p {
+        font-size: 1.6571rem;
+        line-height: 1.4;
+    }
+}
+@media (max-width: 575px) {
+    .module-404 h1 {
+        font-size: 9.4285rem;
+    }
+    .module-404 p {
+        font-size: 1.3571rem;
+        line-height: 1.4;
+    }
+}
+@media (max-width: 480px) {
+    .module-404 h1 {
+        font-size: 8.4285rem;
+    }
+    .module-404 p {
+        font-size: 1.3571rem;
+        line-height: 1.4;
+    }
+}

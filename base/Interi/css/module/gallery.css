@@ -1,0 +1,30 @@
+/*************************
+*
+*  Gallery Page
+*
+*************************/
+.module-gallery {
+    margin-bottom: -100px !important;
+}
+.module-gallery .section-main,
+.module-gallery .section-sub {
+    width: 50%;
+}
+
+@media (min-width: 768px) {
+    .module-gallery .section-main .img-field {
+        min-height: 100vh;
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .module-gallery .section-main,
+    .module-gallery .section-sub {
+        width: 100%;
+    }
+}
+@media (max-width: 575px) {
+    .module-gallery .flex-column-50 {
+        width: 100%;
+    }
+}

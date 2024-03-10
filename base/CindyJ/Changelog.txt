@@ -1,0 +1,6 @@
+Version 1.0	Release
+
+Version 1.0.1   Fixed:
+
+	-Instagram section is fixed
+	-Gallery is fixed

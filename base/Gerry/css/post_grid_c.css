@@ -1,0 +1,98 @@
+/*************************
+*
+*  Post Grid C
+*
+*************************/
+.post--grid-c__inner{
+    position: relative;
+}
+.atbs-post--grid-c .category-tile{
+    top: 68%;
+}
+
+.atbs-post--grid-c .big-post--vertical .post{
+    padding-bottom: 70px;
+}
+.atbs-post--grid-c .big-post--vertical .background-circle:before{
+    top: 98px;
+}
+.atbs-post--grid-c .small-post--vertical{
+    padding-top:  95px;
+}
+.atbs-post--grid-c .small-post--vertical .post__thumb{
+    margin-right: 100px;
+    z-index: 1;
+}
+.atbs-post--grid-c .small-post--vertical .post__title{
+    max-width: 340px;
+    font-weight: 500;
+}
+@media(max-width: 1199px){
+    .atbs-post--grid-c .small-post--vertical .post__title{
+        font-size: 22px;
+    }
+}
+@media( max-width: 991px){
+    .atbs-post--grid-c .big-post-st-2 .post--vertical-reverse  .post__thumb{
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .big-post-st-2 .post--vertical-reverse .text-background.post__text{
+        margin-left: 30px;
+    }
+    .atbs-post--grid-c .small-post--vertical .post__title{
+        font-size: 20px;
+    }
+    .atbs-post--grid-c .small-post--vertical .post__thumb{
+        margin-right: 40px;
+    }
+}
+@media(max-width: 767px){
+    .text-background{
+        width: 310px;
+    }
+    .big-post-st-2 .post--vertical-reverse .text-background.post__text{
+        padding: 20px;
+    }
+    .atbs-post--grid-a .big-post--vertical .post__text{
+        padding: 20px;
+    }
+}
+@media(max-width: 575px){
+    .text-background{
+        width: 100%;
+    }
+    .big-post-st-2 .post--vertical-reverse .text-background.post__text{
+        padding: 20px;
+        margin-left: 0;
+    }
+    .atbs-post--grid-c .small-post--vertical{
+        padding-top:0;
+    }
+
+    .atbs-post--grid-a .big-post--vertical .post__text{
+        padding: 20px;
+        margin-right: 0;
+    }
+
+    .big-post-st-2 .post--vertical-reverse .text-background.post__thumb{
+        margin-bottom:0;
+    }
+    .atbs-post--grid-c .small-post--vertical .post__thumb{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .atbs-post--grid-c .small-post--vertical .post__title{
+        max-width:100%;
+    }
+    .atbs-post--grid-c  .big-post--vertical{
+        margin-top: 40px;
+    }
+    .atbs-post--grid-c .big-post--vertical .post{
+        padding-bottom:0;
+    }
+    .background-circle:before{
+        display: none;
+    }
+
+}

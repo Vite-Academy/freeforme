@@ -1,0 +1,41 @@
+/*************************
+*
+*  Listing Grid 2
+*
+*************************/
+.post--vertical-normal-cylinder .post__thumb {
+    height: 265px;
+    margin-bottom: 20px;
+}
+.post--vertical-normal-cylinder .post__title {
+    margin-bottom: 8px;
+}
+.post--vertical-normal-cylinder .post__excerpt {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+@media (min-width: 992px) {
+    .atbs-posts-listing--grid-2 .posts-list {
+        margin: -25px -15px;
+    }
+    .atbs-posts-listing--grid-2 .posts-list > * {
+        padding: 25px 15px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .atbs-posts-listing--grid-2 .posts-list > * {
+        width: calc(100% / 3);
+    }
+}
+@media (max-width: 1199px) {
+    .atbs-posts-listing--grid-2 .posts-list > * {
+        width: calc(100% / 2);
+    }
+}
+@media (max-width: 575px) {
+    .atbs-posts-listing--grid-2 .posts-list > * {
+        width: 100%;
+    }
+}
